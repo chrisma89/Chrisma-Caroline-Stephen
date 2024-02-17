@@ -1,0 +1,6 @@
+/* style.css */
+.navbar-nav {
+  justify-content: center;
+  flex-grow: 1;
+}
+
