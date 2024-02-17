@@ -6,16 +6,16 @@ import Container from "react-bootstrap/esm/Container";
 function HomeCard() {
   return (
     <Container className="container-fluid d-flex justify-content-center">
-    <Card style={{ width: '18rem' }}>
+    <Card >
    
       <Card.Body>
-        <Card.Title>CHRISMA CAROLINE STEPHEN</Card.Title>
+        <Card.Title style={{ width: '18rem' }}>CHRISMA CAROLINE STEPHEN</Card.Title>
         <Card.Text>
           PORTFOLIO
         </Card.Text>
         
       </Card.Body> 
-        <Card.Img variant="top" src="src\images\pic.jpeg" className="rounded" />
+        <Card.Img style={{ width: '18rem' }}  variant="top" src="src\images\pic.jpeg" className="rounded d-flex justify-content-center" />
     </Card>
     </Container>
   );
