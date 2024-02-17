@@ -5,7 +5,7 @@ import Container from "react-bootstrap/esm/Container";
 
 function HomeCard() {
   return (
-    <Container className="container-fluid justify-content-center">
+    <Container className="container-fluid d-flex justify-content-center">
     <Card style={{ width: '18rem' }}>
    
       <Card.Body>
