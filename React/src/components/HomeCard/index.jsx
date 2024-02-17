@@ -1,9 +1,11 @@
 import NavBar from "../navbar";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import Container from "react-bootstrap/esm/Container";
 
 function HomeCard() {
   return (
+    <Container className="container-fluid justify-content-center">
     <Card style={{ width: '18rem' }}>
    
       <Card.Body>
@@ -13,8 +15,9 @@ function HomeCard() {
         </Card.Text>
         
       </Card.Body> 
-        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Img variant="top" src="src\images\pic.jpeg" className="rounded" />
     </Card>
+    </Container>
   );
 }
 
