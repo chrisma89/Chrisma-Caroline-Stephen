@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 // import About from './pages/About';
 // import Search from './pages/Search';
+
 import NavBar from './components/navbar';
 import HomeCard from './Pages/HomeCard';
 import Nav from 'react-bootstrap/Nav';
@@ -15,9 +16,19 @@ import ProjectsGallery from './Pages/ProjectGallery';
 function App() {
   return (
     <>
-  <NavBar/>
-  <HomeCard/>
-  <ProjectsGallery />
+    <Router>
+      <NavBar/>
+      <Routes>
+      <Route path ="./home" element={ <HomeCard />} />
+        <Route path ="./projects" element={ <ProjectsGallery />} />
+        <Route path ="./links" element={ <Links />} />
+        <Route path ="./contact" element={ <Contact />} />
+         
+ 
+      </Routes>
+ 
+  </Router>
+  
   </>
   );
 }
