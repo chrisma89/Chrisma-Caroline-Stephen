@@ -5,6 +5,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import Search from './pages/Search';
 import NavBar from './components/navbar';
 import HomeCard from './Pages/HomeCard';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import projectsData from './projects.json';
 // import Footer from './components/Footer';
 // import Wrapper from './components/Wrapper';
 
