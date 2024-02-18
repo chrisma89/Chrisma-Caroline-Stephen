@@ -1,0 +1,45 @@
+[
+ {
+    "id" :"1",
+    "name" : "The Pursuit of Hobbyness",
+    "github" : "https://github.com/chrisma89/The-Pursuit-of-Hobbyness",
+    "deployed" : "https://chrisma89.github.io/The-Pursuit-of-Hobbyness/",
+    "image" : "./images/Homepage.png"
+},
+{
+  "id" :"2",
+  "name" : "Workday-Planner",
+  "github" : "https://github.com/chrisma89/Workday-Planner",
+  "deployed" : "https://chrisma89.github.io/Workday-Planner/",
+  "image" : "./images/webpage screenshot.png"
+},
+{
+  "id" :"3",
+  "name" : "Multi-City-5-Days-Weather-Tracker",
+  "github" : "https://github.com/chrisma89/Multi-City-5-Days-Weather-Tracker",
+  "deployed" : "https://chrisma89.github.io/Multi-City-5-Days-Weather-Tracker/",
+  "image" : "./images/webpage-screenshot.png"
+},
+{
+  "id" :"1",
+  "name" : "The Pursuit of Hoobyness",
+  "github" : "https://github.com/chrisma89/The-Pursuit-of-Hobbyness",
+  "deployed" : "https://chrisma89.github.io/The-Pursuit-of-Hobbyness/",
+  "image" : "./images/Homepage.png"
+},
+{
+  "id" :"1",
+  "name" : "The Pursuit of Hoobyness",
+  "github" : "https://github.com/chrisma89/The-Pursuit-of-Hobbyness",
+  "deployed" : "https://chrisma89.github.io/The-Pursuit-of-Hobbyness/",
+  "image" : "./images/Homepage.png"
+},
+{
+  "id" :"1",
+  "name" : "The Pursuit of Hoobyness",
+  "github" : "https://github.com/chrisma89/The-Pursuit-of-Hobbyness",
+  "deployed" : "https://chrisma89.github.io/The-Pursuit-of-Hobbyness/",
+  "image" : "./images/Homepage.png"
+}
+
+]
