@@ -1,7 +1,7 @@
-// import Projects from "../../components/Projects";
-// import './projects.json';
+import Projects from "../../components/Projects";
+import projectsData from "../../projects.json"; // Adjust the path as necessary
 
-const ProjectsGallery = () => {
+const ProjectsGallery = (props) => {
   return(
     <>
     <p>Project Gallery</p>
