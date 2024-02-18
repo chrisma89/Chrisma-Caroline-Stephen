@@ -6,18 +6,31 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './projects.json';
 import ProjectsGallery from './Pages/ProjectGallery';
-// import projectsData from "./projects.json"
+import projectsData from "./projects.json"
 
 
 function App() {
   return (
+    <Router>
+      <div>
+        <NavBar /> 
+        <Routes>
+          <Route path="/" element={<HomeCard />} />
+          <Route path="/projects" element={<ProjectsGallery />} />
+          {/* <Route path="/projects" element={<Projects />} /> */}
+          {/* <Route path="/contact" element={<Contact />} /> */}
+        </Routes>
+      </div>
+    </Router>
+  );
+
  
-  <div>
-    <NavBar />
-  <HomeCard/>
-  <ProjectsGallery  />
-  </div>
-  ) 
+  // <div>
+  //   <NavBar />
+  // <HomeCard/>
+  // <ProjectsGallery  />
+  // </div>
+  
 }
 
 export default App;
