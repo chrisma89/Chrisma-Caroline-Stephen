@@ -21,18 +21,18 @@
   "image" : "./images/webpage-screenshot.png"
 },
 {
-  "id" :"1",
-  "name" : "The Pursuit of Hoobyness",
-  "github" : "https://github.com/chrisma89/The-Pursuit-of-Hobbyness",
-  "deployed" : "https://chrisma89.github.io/The-Pursuit-of-Hobbyness/",
-  "image" : "./images/Homepage.png"
+  "id" :"4",
+  "name" : "Custom Password Generator",
+  "github" : "https://github.com/chrisma89/Custom-Password-Generator",
+  "deployed" : "https://chrisma89.github.io/Custom-Password-Generator/",
+  "image" : "./images/webpagescreenshot.png"
 },
 {
-  "id" :"1",
-  "name" : "The Pursuit of Hoobyness",
-  "github" : "https://github.com/chrisma89/The-Pursuit-of-Hobbyness",
-  "deployed" : "https://chrisma89.github.io/The-Pursuit-of-Hobbyness/",
-  "image" : "./images/Homepage.png"
+  "id" :"5",
+  "name" : "A-Dentistry-Quiz-Game",
+  "github" : "https://github.com/chrisma89/A-Dentistry-Quiz-Game",
+  "deployed" : "https://chrisma89.github.io/A-Dentistry-Quiz-Game/",
+  "image" : "./images/Webpage screenshot copy.png"
 },
 {
   "id" :"1",
