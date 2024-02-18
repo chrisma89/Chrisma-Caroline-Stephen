@@ -2,20 +2,18 @@ import NavBar from "../navbar";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Container from "react-bootstrap/esm/Container";
+import "./style.css"
 
 function HomeCard() {
   return (
-    <Container className="container-fluid d-flex justify-content-center">
-    <Card >
-   
-      <Card.Body>
-        <Card.Title style={{ width: '18rem' }}>CHRISMA CAROLINE STEPHEN</Card.Title>
-        <Card.Text>
-          PORTFOLIO
-        </Card.Text>
-        
-      </Card.Body> 
-        <Card.Img style={{ width: '18rem' }}  variant="top" src="src\images\pic.jpeg" className="rounded d-flex justify-content-center" />
+    <Container>
+     
+      <h1 className="text-center">CHRISMA CAROLINE STEPHEN</h1>
+      
+      <p className="text-center" >PORTFOLIO</p>
+    
+    <Card style={{ width: '18rem' }} className="container-fluid d-flex">
+        <Card.Img className="mx-auto rounded-circle"  variant="top" src="src\images\pic.jpeg"  />
     </Card>
     </Container>
   );

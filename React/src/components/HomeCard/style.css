@@ -1,3 +1,6 @@
-card {
+.card {
   padding: 50;
+  border: transparent !important;
 }
+
+
