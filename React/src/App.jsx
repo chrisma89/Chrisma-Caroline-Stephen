@@ -16,13 +16,13 @@ import ProjectsGallery from './Pages/ProjectGallery';
 function App() {
   return (
     <>
-    <Router>
+    <Router basename='/'>
       <NavBar/>
       <Routes>
       <Route path ="./home" element={ <HomeCard />} />
         <Route path ="./projects" element={ <ProjectsGallery />} />
         <Route path ="./links" element={ <Links />} />
-        <Route path ="./contact" element={ <Contact />} />
+        <Route path ="" element={ <Contact />} />
          
  
       </Routes>
