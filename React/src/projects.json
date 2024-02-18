@@ -4,42 +4,42 @@
     "name" : "The Pursuit of Hobbyness",
     "github" : "https://github.com/chrisma89/The-Pursuit-of-Hobbyness",
     "deployed" : "https://chrisma89.github.io/The-Pursuit-of-Hobbyness/",
-    "image" : "./images/Homepage.png"
+    "image" : "src/images/Homepage.png"
 },
 {
   "id" :"2",
   "name" : "Workday-Planner",
   "github" : "https://github.com/chrisma89/Workday-Planner",
   "deployed" : "https://chrisma89.github.io/Workday-Planner/",
-  "image" : "./images/webpage screenshot.png"
+  "image" : "src/images/webpage screenshot.png"
 },
 {
   "id" :"3",
   "name" : "Multi-City-5-Days-Weather-Tracker",
   "github" : "https://github.com/chrisma89/Multi-City-5-Days-Weather-Tracker",
   "deployed" : "https://chrisma89.github.io/Multi-City-5-Days-Weather-Tracker/",
-  "image" : "./images/webpage-screenshot.png"
+  "image" : "src/images/webpage-screenshot.png"
 },
 {
   "id" :"4",
   "name" : "Custom Password Generator",
   "github" : "https://github.com/chrisma89/Custom-Password-Generator",
   "deployed" : "https://chrisma89.github.io/Custom-Password-Generator/",
-  "image" : "./images/webpagescreenshot.png"
+  "image" : "src/images/webpagescreenshot.png"
 },
 {
   "id" :"5",
   "name" : "A-Dentistry-Quiz-Game",
   "github" : "https://github.com/chrisma89/A-Dentistry-Quiz-Game",
   "deployed" : "https://chrisma89.github.io/A-Dentistry-Quiz-Game/",
-  "image" : "./images/Webpage screenshot copy.png"
+  "image" : "src/images/Webpage screenshot copy.png"
 },
 {
   "id" :"6",
   "name" : "Bootstrap-Portfolio",
   "github" : "https://github.com/chrisma89/Bootstrap-Portfolio",
   "deployed" : "https://chrisma89.github.io/Bootstrap-Portfolio/",
-  "image" : "./images/webpagescreenshot.png"
+  "image" : "src/images/webpagescreenshot copy.png"
 }
 
 ]

@@ -10,7 +10,8 @@ const ProjectsGallery = (props) => {
       projectsData.map((project) => (
         <Projects 
         id ={project.id}
-        key ={project.key}
+        key ={project.id}
+        image ={project.image}
         name = {project.name}
         github={project.github}
         deployed = {project.deployed}>
