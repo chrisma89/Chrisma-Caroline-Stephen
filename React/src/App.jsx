@@ -7,7 +7,8 @@ import NavBar from './components/navbar';
 import HomeCard from './Pages/HomeCard';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import projectsData from './projects.json';
+import './projects.json';
+import ProjectsGallery from './Pages/ProjectGallery';
 // import Footer from './components/Footer';
 // import Wrapper from './components/Wrapper';
 
@@ -16,6 +17,7 @@ function App() {
     <>
   <NavBar/>
   <HomeCard/>
+  <ProjectsGallery />
   </>
   );
 }
