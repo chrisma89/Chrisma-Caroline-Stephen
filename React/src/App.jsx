@@ -14,6 +14,7 @@ import './projects.json';
 import ProjectsGallery from './Pages/ProjectGallery';
 import projectsData from "./projects.json"
 import Contact from "./Pages/Contact"
+import Links from './Pages/LInks';
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomeCard />} />
           <Route path="/projects" element={<ProjectsGallery />} />
-          {/* <Route path="/projects" element={<Projects />} /> */}
+          <Route path="/links" element={<Links />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
