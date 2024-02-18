@@ -16,7 +16,7 @@ import ProjectsGallery from './Pages/ProjectGallery';
 function App() {
   return (
     <>
-    <Router basename='/'>
+    <Router basename='/Chrisma-Caroline-Stephen'>
       <NavBar/>
       <Routes>
       <Route path ="./home" element={ <HomeCard />} />
