@@ -1,0 +1,6 @@
+.form {
+  text-align: left;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
