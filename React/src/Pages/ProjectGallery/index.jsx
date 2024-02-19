@@ -21,7 +21,7 @@ const ProjectsGallery = () => {
                 {selectedProject ? (
                     <>
                         <Projects project={selectedProject} />
-                        <button onClick={() => setSelectedProject(null)}>Back to list</button>
+                        <button onClick={() => setSelectedProject(null)}>Back to Gallery</button>
                     </>
                 ) : (
                     <Row>
@@ -34,6 +34,7 @@ const ProjectsGallery = () => {
                                     github={project.github}
                                     deployed={project.deployed}
                                     selectProject={() => selectProject(project.id)}
+                                // projectdisplay = {() => selectProject(project.id)}
                                 />
                             </Col>
                         ))}
