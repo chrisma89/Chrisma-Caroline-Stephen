@@ -12,7 +12,6 @@ import Links from './Pages/LInks';
 import Details from './Pages/Details';
 
 
-
 function App() {
   return (
     <Router>

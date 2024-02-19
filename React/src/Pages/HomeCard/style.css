@@ -1,15 +1,15 @@
 .card {
   padding: 50;
   border: transparent !important;
-  background-color: #59B4C3;
+  background-color: black; 
 }
 .homecard {
-  height: 100vh; /* 100% of the viewport height */
-  width: 100vw; /* 100% of the viewport width */
+  height: 100vh; 
+  width: 100vw;
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  background-color: black;
+  justify-content: center; 
+  align-items: center; 
+  background-color: black; 
 }
 
 .tile {
