@@ -16,8 +16,8 @@ const ProjectsGallery = () => {
     };
 
     return (
-        <div style={{background : 'black'}}>
-            <h3 style={{fontSize: "25px", color : "#59B4C3",  padding: "25px",background : 'black' }}>Project Gallery</h3>
+        <div style={{background : '--red'}}>
+            <h3 style={{fontSize: "25px", color : "#64002f",  padding: "25px",background :  "rgb(238, 238, 238)" }}>Project Gallery</h3>
             <Container className='container-fluid'>
                 {selectedProject ? (
                     

@@ -9,6 +9,10 @@ html, body, #root {
   /* height: vh; */
   /* width: vw; */
 }
+:root {
+  --red:#64002f; 
+  --white : rgb(238, 238, 238); 
+}
 .namdhinggo-regular {
   font-family: "Namdhinggo", serif;
   font-weight: 400;
