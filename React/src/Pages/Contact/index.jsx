@@ -11,9 +11,12 @@ const Contact = () => {
 
     {/* Contact form */}
     <Form  style={{
-      display: 'flex', 
-      justifyContent: 'center', 
-      alignItems: 'center', 
+      display: "flex", 
+      justifyContent: "center", 
+      flexDirection : "column",
+      alignItems: "center", 
+      color : "#59B4C3",
+      fontSize : "25px"
     }}>
       <Form.Group className="mb-3 form d-flex justify-content-center" controlId="formBasicEmail">
         <Form.Label>First Name</Form.Label>
@@ -23,7 +26,7 @@ const Contact = () => {
         <Form.Label>Email Address</Form.Label>
         <Form.Control type="email" placeholder="Enter email" />
       </Form.Group>
-      <Button variant="primary" type="submit" onSubmit="">
+      <Button  style ={{backgroundColor : "#59B4C3"}} type="submit" onSubmit="">
         Submit
       </Button>
     </Form>
