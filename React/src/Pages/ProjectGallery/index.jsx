@@ -16,7 +16,7 @@ const ProjectsGallery = () => {
 
     return (
         <>
-            <p>Project Gallery</p>
+            <h3 style={{fontSize: "25px", padding: "20px", color : "#59B4C3",  padding: "50px"}}>Project Gallery</h3>
             <Container>
                 {selectedProject ? (
                     <>

@@ -6,13 +6,12 @@ import "./style.css"
 
 function Projects ({id,image,name, github,deployed, displayProject}) {
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={image} className='img-container d-flex row'/>
+    <Card style={{ width: '18rem', height : '26rem' }}>
+      <Card.Img variant="top" src={image} className='img-container'/>
       <Card.Body className='content'>
         <Card.Title>{name}</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+         Project Description
         </Card.Text>
         <a href={github} target="_blank"><Button variant="primary">GITHUB</Button></a>
         <a href={deployed} target="_blank"><Button variant="primary">APPLICATION</Button></a>
