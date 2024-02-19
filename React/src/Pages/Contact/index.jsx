@@ -5,8 +5,8 @@ import "./style.css"
 
 const Contact = () => {
   return(
-    <>
-    <h3 style={{fontSize: "25px", padding: "20px", color : "#59B4C3",  padding: "50px"}}>Contact Me</h3>
+    <div style={{background : 'black', paddingBottom : "100%"}}>
+    <h3 style={{fontSize: "25px", padding: "20px", color : "#59B4C3",  padding: "50px", background : 'black'}}>Contact Me</h3>
 
 
     {/* Contact form */}
@@ -26,7 +26,7 @@ const Contact = () => {
         <Form.Label>Email Address</Form.Label>
         <Form.Control type="email" placeholder="Enter email" />
       </Form.Group>
-      <Button  style ={{backgroundColor : "#59B4C3"}} type="submit" onSubmit="">
+      <Button  style ={{backgroundColor : "#59B4C3", margin: "35px"}} type="submit" onSubmit="">
         Submit
       </Button>
     </Form>
@@ -34,7 +34,7 @@ const Contact = () => {
 
     {/* Contact form */}
 
-    </>
+    </div>
 
   )
 }
