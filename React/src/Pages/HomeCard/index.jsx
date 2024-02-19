@@ -9,7 +9,7 @@ function HomeCard() {
   
     <div className="container-fluid homecard">
     <div className="justify-content-center">
-        <div className="text-center title" style={{color : "white", fontSize : "45px", padding : "65px"}}>CHRISMA CAROLINE STEPHEN </div>
+        <div className="text-center title" style={{color : "white", fontSize : "45px", padding : "20px"}}>CHRISMA CAROLINE STEPHEN </div>
         <div className="text-center" style={{color : "white", fontSize : "35px", padding : "5px"}}>
           PORTFOLIO
         </div>
