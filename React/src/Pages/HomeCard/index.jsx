@@ -9,12 +9,12 @@ function HomeCard() {
   
     <div className="container-fluid homecard">
     <div className="justify-content-center">
-        <div className="text-center title" style={{color : "white", fontSize : "45px", fontFamily : "namdhinggo-regular", padding : "20px"}}>CHRISMA CAROLINE STEPHEN </div>
-        <div className="text-center" style={{color : "white", fontSize : "35px", padding : "1px"}}>
-          PORTFOLIO
+        <div className="text-center title" style={{color : "#6d0f22", fontSize : "50px", fontFamily: "allura-regular", padding : "5px"}}>Chrisma Caroline Stephen </div>
+        <div className="text-center" style={{color : "#6d0f22", fontSize : "35px", padding : "1px"}}>
+          Welcome to my Portfolio!
         </div>
-        <Card.Body style={{ backgroundColor: "black", display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}> 
-          <Card.Img className="rounded-circle mx-auto" style={{ width: '30%', height: '30%', border: "25" }} variant="top" src="src/images/pic.jpeg" /> 
+        <Card.Body style={{ backgroundColor: "transparent",  display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}> 
+          <Card.Img className="rounded-circle mx-auto" style={{ width: '40%', height: '40%', border: "25" }} variant="top" src="src/images/pic.jpeg" /> 
         </Card.Body>
     </div>
     </div>
