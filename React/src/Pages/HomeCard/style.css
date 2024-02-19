@@ -2,13 +2,12 @@
   padding: 50;
   border: transparent !important;
 }
-.homecard{
-  background-color: black;
-  height: auto;
-  width: auto;
-}
-.image {
- width : 100px;
- height: 100px;
+.homecard {
+  height: 100vh; /* 100% of the viewport height */
+  width: 100vw; /* 100% of the viewport width */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-color: #59B4C3;
 }
 

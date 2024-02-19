@@ -17,7 +17,7 @@ function HomeCard() {
     //     />
     //   </Card>
     // </Container>
-    <div className="container-fluid">
+    <div className="container-fluid homecard">
     <Card className="mx-auto justify-content-center"style={{ width: '24rem' }}>
       
       <Card.Body>

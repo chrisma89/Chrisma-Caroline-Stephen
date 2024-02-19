@@ -1,6 +1,22 @@
 /* style.css */
 .navbar-nav {
+  padding: 50px;
   justify-content: center;
   flex-grow: 1;
+  width: vw;
+  background-color: #59B4C3;
+  color: #211C6A;
+  font-size: 25px;
+  /* display: flex; */
 }
 
+.navbarmain {
+  width: vw;
+  background-color: #59B4C3; 
+  color: #211C6A;
+}
+
+.nav-link {
+  padding: 1000px;
+  font-size: 400px;
+}
