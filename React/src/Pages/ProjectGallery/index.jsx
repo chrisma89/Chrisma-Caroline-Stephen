@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import Container from 'react-bootstrap/Container'; // Ensure this import
+import Row from 'react-bootstrap/Row'; // Ensure this import
+import Col from 'react-bootstrap/Col'; // Ensure this import
 import Projects from "../../components/Projects";
 import projectsData from "../../projects.json"; 
 
@@ -20,9 +23,12 @@ const ProjectsGallery = () => {
     <>
     <p>Project Gallery</p>
 
-    {
-      projectsData.map((project) => (
-        <Projects 
+    
+      <Container> 
+        <Row>
+          {projectsData.map((project) => (
+            <Col key={project.id} sm={12} md={6} lg={4}> 
+        <Projects
         id ={project.id}
         key ={project.id}
         image ={project.image}
@@ -32,8 +38,13 @@ const ProjectsGallery = () => {
         displayProject = {displayProject}>
 
         </Projects>
-      ))
-    }
+        </Col>))}
+      
+      </Row> 
+        
+      </Container>
+    
+    
     </>
   )
 }

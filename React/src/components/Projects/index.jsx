@@ -1,12 +1,13 @@
 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import "./style.css"
 
 function Projects ({id,image,name, github,deployed, displayProject}) {
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={image} />
-      <Card.Body>
+      <Card.Img variant="top" src={image} className='img-container d-flex row'/>
+      <Card.Body className='content'>
         <Card.Title>{name}</Card.Title>
         <Card.Text>
           Some quick example text to build on the card title and make up the
