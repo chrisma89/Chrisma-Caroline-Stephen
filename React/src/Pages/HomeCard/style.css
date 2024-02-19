@@ -1,6 +1,7 @@
 .card {
   padding: 50;
   border: transparent !important;
+  background-color: #59B4C3;
 }
 .homecard {
   height: 100vh; /* 100% of the viewport height */
@@ -11,3 +12,6 @@
   background-color: #59B4C3;
 }
 
+.tile {
+  color : "white";
+}
