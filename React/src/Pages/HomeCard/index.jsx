@@ -6,18 +6,30 @@ import "./style.css";
 
 function HomeCard() {
   return (
-    <Container>
-      <h1 className="text-center">CHRISMA CAROLINE STEPHEN</h1>
-      <p className="text-center">PORTFOLIO</p>
+    // <Container className="container homecard">
+    //   <h1 className="text-center">CHRISMA CAROLINE STEPHEN</h1>
+    //   <p className="text-center">PORTFOLIO</p>
 
-      <Card style={{ width: "18rem" }} className="container-fluid d-flex">
-        <Card.Img
-          className="mx-auto rounded-circle"
-          variant="top"
-          src="src\images\pic.jpeg"
-        />
-      </Card>
-    </Container>
+    //   <Card > 
+    //     <Card.Img className="mx-auto rounded-circle image"
+    //       variant="top"
+    //       src="src\images\pic.jpeg"
+    //     />
+    //   </Card>
+    // </Container>
+    <div className="container-fluid">
+    <Card className="mx-auto justify-content-center"style={{ width: '24rem' }}>
+      
+      <Card.Body>
+        <Card.Title className="text-center">CHRISMA CAROLINE STEPHEN</Card.Title>
+        <Card.Text className="text-center">
+          PORTFOLIO
+        </Card.Text>
+        <Card.Img className="rounded-circle" variant="top" src="src\images\pic.jpeg" />
+        
+      </Card.Body>
+    </Card>
+    </div>
   );
 }
 

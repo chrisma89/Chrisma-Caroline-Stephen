@@ -2,5 +2,13 @@
   padding: 50;
   border: transparent !important;
 }
-
+.homecard{
+  background-color: black;
+  height: auto;
+  width: auto;
+}
+.image {
+ width : 100px;
+ height: 100px;
+}
 
