@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
-  background-color: #59B4C3;
+  background-color: black;
 }
 
 .tile {

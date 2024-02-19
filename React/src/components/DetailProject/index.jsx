@@ -5,14 +5,17 @@
 // import React, { useState } from 'react';
 
 
+
+
 // function DetailProject ({project}) {
+//   // const [selectedProject, setSelectedProject] = useState(null);
 //    const { image, name, github, deployed } = project;
 //     // Setting initial state to the projectsdata json array
-//     const [projects, setProjects] = useState(projectsData);
+//     // const [projects, setProjects] = useState(projectsData);
   
 //     const displayProject = ({project}) => {
 //       // Display only the project that has been clicked
-//       const newProject = projects.filter((project) => project.id !== id);
+//       const newProject = project.filter((project) => project.id === id);
 //       // Set friends equal to the new friends array
 //       setProjects(newProject);
 //     };

@@ -13,7 +13,7 @@ function HomeCard() {
         <div className="text-center" style={{color : "white", fontSize : "35px", padding : "5px"}}>
           PORTFOLIO
         </div>
-        <Card.Body style={{ backgroundColor: "#59B4C3", display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}> 
+        <Card.Body style={{ backgroundColor: "black", display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}> 
           <Card.Img className="rounded-circle mx-auto" style={{ width: '60%', height: '60%' }} variant="top" src="src/images/pic.jpeg" /> 
         </Card.Body>
     </div>
