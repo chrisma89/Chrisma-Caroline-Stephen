@@ -1,11 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
-
-
-
-
-
 import NavBar from './components/navbar';
 import HomeCard from './Pages/HomeCard';
 import Nav from 'react-bootstrap/Nav';

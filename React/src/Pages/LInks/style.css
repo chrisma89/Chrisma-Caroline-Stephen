@@ -1,0 +1,13 @@
+h3 {
+  font-size: 250px;
+  background-color:  white;
+  text-align: center;
+}
+
+.icon svg {
+  color:  #59B4C3;; 
+  width: 150px; 
+  height: 150px ; 
+  padding-right: 75px;
+  padding-left: 75px;
+}
