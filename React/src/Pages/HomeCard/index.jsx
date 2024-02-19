@@ -8,17 +8,15 @@ function HomeCard() {
   return (
   
     <div className="container-fluid homecard">
-    <Card className="mx-auto justify-content-center"style={{ width: '24rem' }}>
-      
-      <Card.Body style={{backgroundColor : "#59B4C3"}}>
-        <Card.Title className="text-center title" style={{color : "white"}}>CHRISMA CAROLINE STEPHEN</Card.Title>
-        <Card.Text className="text-center" style={{color : "white"}}>
+    <div className="justify-content-center">
+        <div className="text-center title" style={{color : "white", fontSize : "45px", padding : "65px"}}>CHRISMA CAROLINE STEPHEN </div>
+        <div className="text-center" style={{color : "white", fontSize : "35px", padding : "5px"}}>
           PORTFOLIO
-        </Card.Text>
-        <Card.Img className="rounded-circle" variant="top" src="src\images\pic.jpeg" />
-        
-      </Card.Body>
-    </Card>
+        </div>
+        <Card.Body style={{ backgroundColor: "#59B4C3", display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}> 
+          <Card.Img className="rounded-circle mx-auto" style={{ width: '60%', height: '60%' }} variant="top" src="src/images/pic.jpeg" /> 
+        </Card.Body>
+    </div>
     </div>
   );
 }
