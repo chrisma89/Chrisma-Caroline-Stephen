@@ -13,7 +13,7 @@ const ProjectsGallery = () => {
   
     const displayProject = (id) => {
       // Display only the project that has been clicked
-      const newProject = projects.filter((project) => project.id === id);
+      const newProject = projects.filter((project) => project.id !== id);
       // Set friends equal to the new friends array
       setProjects(newProject);
     };
