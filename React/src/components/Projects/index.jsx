@@ -6,17 +6,17 @@ import "./style.css"
 
 function Projects ({id,image,name, github,deployed, displayProject}) {
   return (
-    <Card style={{ width: '18rem', height : '26rem' }}>
-      <Card.Img variant="top" src={image} className='img-container'/>
-      <Card.Body className='content'>
-        <Card.Title>{name}</Card.Title>
-        <Card.Text>
-         Project Description
-        </Card.Text>
-        <a href={github} target="_blank"><Button variant="primary">GITHUB</Button></a>
-        <a href={deployed} target="_blank"><Button variant="primary">APPLICATION</Button></a>
-        <Button id={id} onClick={() => displayProject(id)} className="btn-primary">
-        View Project
+    <Card className ="d-flex justify-content-center col"style={{ width: '18rem', height : '15rem' }}>
+      {/* <Card.Img variant="top" src={image} className='img-container'/> */}
+      <Card.Body className="content d-flex flex-column justify-content-center align-items-center">
+        <Card.Title style={{fontSize: "25px", padding: "10px", color : "#59B4C3"}}>{name}</Card.Title>
+        {/* <Card.Text> */}
+         {/* Project Description */}
+        {/* </Card.Text> */}
+        <a href={github} target="_blank"><Button  style ={{backgroundColor : "#59B4C3", margin : "5px"}} >GITHUB</Button></a>
+        <a href={deployed} target="_blank"><Button  style ={{backgroundColor : "#59B4C3", margin : "5px"}} >APPLICATION</Button></a>
+        <Button id={id}  style ={{backgroundColor : "#59B4C3", margin : "5px", alignItems : "center"}} onClick={() => displayProject(id)}>
+        VIEW NOW
       </Button>
       </Card.Body>
     </Card>
