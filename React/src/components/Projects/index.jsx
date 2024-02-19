@@ -6,10 +6,10 @@ import "./style.css"
 
 function Projects ({id,image,name, github,deployed, displayProject}) {
   return (
-    <Card className ="d-flex justify-content-center col"style={{ width: '18rem', height : '15rem' }}>
+    <Card className ="d-flex justify-content-center col"style={{ width: '22rem', height : '15rem' }}>
       {/* <Card.Img variant="top" src={image} className='img-container'/> */}
       <Card.Body className="content d-flex flex-column justify-content-center align-items-center">
-        <Card.Title style={{fontSize: "25px", padding: "10px", color : "#59B4C3"}}>{name}</Card.Title>
+        <Card.Title style={{fontSize: "20px", padding: "10px", color : "#59B4C3", textAlign : "center"}}>{name}</Card.Title>
         {/* <Card.Text> */}
          {/* Project Description */}
         {/* </Card.Text> */}
