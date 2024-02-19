@@ -11,10 +11,10 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="">
-          <Nav.Link style={{color:"white", paddingRight :"30px"}} href="/">HOME</Nav.Link>
-            <Nav.Link style={{color:"white", paddingRight :"30px"}} href="/projects">PROJECTS</Nav.Link>
-            <Nav.Link style={{color:"white", paddingRight :"30px"}} href="/links">LINKS</Nav.Link>
-            <Nav.Link style={{color:"white", paddingRight :"30px"}} href="/contact">CONTACT</Nav.Link>
+          <Nav.Link style={{color:"white", paddingRight :"30px", fontFamily : "roboto-black-italic"}} href="/">HOME</Nav.Link>
+            <Nav.Link style={{color:"white", paddingRight :"30px",fontFamily : "roboto-black-italic"}} href="/projects">PROJECTS</Nav.Link>
+            <Nav.Link style={{color:"white", paddingRight :"30px",fontFamily : "roboto-black-italic"}} href="/links">LINKS</Nav.Link>
+            <Nav.Link style={{color:"white", paddingRight :"30px",fontFamily : "roboto-black-italic"}} href="/contact">CONTACT</Nav.Link>
           
           </Nav>
           </Navbar.Collapse>

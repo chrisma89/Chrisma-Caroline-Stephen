@@ -9,7 +9,11 @@
   display: flex;
   justify-content: center; 
   align-items: center; 
-  background-color: black; 
+  /* background-color: black;  */
+  background-image: url("src/images/anil-kumar-SXigdcQPbd8-unsplash.jpg");
+  background-size: cover; /* Cover the entire page */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the image */
 }
 
 .tile {

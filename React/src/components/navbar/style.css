@@ -1,20 +1,18 @@
 /* style.css */
 .navbar-nav {
-  padding: 20px;
   justify-content: center;
   flex-grow: 1;
   width: vw;
-  background-color:#59B4C3; 
+  background-color:#6d0f22; 
   color: #211C6A;
   font-size: 20px;
-  padding: 10px;
-  /* display: flex; */
+  padding:5px;
 }
 
 .navbarmain {
   width: vw;
   height: 10%;
-  background-color: #59B4C3; 
+  background-color: #6d0f22;  
   color: #211C6A;
 }
 
