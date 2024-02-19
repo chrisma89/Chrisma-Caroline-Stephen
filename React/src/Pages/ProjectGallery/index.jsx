@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Projects from "../../components/Projects";
 import projectsData from "../../projects.json";
+import ProjectCard from '../../components/ProjectCard';
 // import DetailProject from '../../components/DetailProject';
 
 const ProjectsGallery = () => {
@@ -19,8 +20,13 @@ const ProjectsGallery = () => {
             <h3 style={{fontSize: "25px", color : "#59B4C3",  padding: "25px",background : 'black' }}>Project Gallery</h3>
             <Container className='container-fluid'>
                 {selectedProject ? (
+                    
                     <>
-                        <Projects project={selectedProject} />
+                        <ProjectCard project={selectedProject} id={selectedProject.id}
+                                    image={selectedProject.image}
+                                    name={selectedProject.name}
+                                    github={selectedProject.github}
+                                    deployed={selectedProject.deployed} />
                         <button onClick={() => setSelectedProject(null)}>Back to Gallery</button>
                     </>
                 ) : (
@@ -34,7 +40,6 @@ const ProjectsGallery = () => {
                                     github={project.github}
                                     deployed={project.deployed}
                                     selectProject={() => selectProject(project.id)}
-                                // projectdisplay = {() => selectProject(project.id)}
                                 />
                             </Col>
                         ))}

@@ -14,7 +14,7 @@ function HomeCard() {
           PORTFOLIO
         </div>
         <Card.Body style={{ backgroundColor: "black", display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}> 
-          <Card.Img className="rounded-circle mx-auto" style={{ width: '60%', height: '60%', border: "25" }} variant="top" src="src/images/pic.jpeg" /> 
+          {/* <Card.Img className="rounded-circle mx-auto" style={{ width: '60%', height: '60%', border: "25" }} variant="top" src="src/images/pic.jpeg" />  */}
         </Card.Body>
     </div>
     </div>

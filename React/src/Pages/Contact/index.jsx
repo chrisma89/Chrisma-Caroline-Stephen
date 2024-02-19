@@ -25,7 +25,7 @@ const Contact = () => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     event.preventDefault();
     if (!formData.firstName || !formData.lastName || !formData.email) {
-      alert('Fill out your first and last name please!');
+      alert("Please fill out all the fields");
     } 
      else {
       alert(`Hello ${formData.firstName} ${formData.lastName}, Thank you!`);
