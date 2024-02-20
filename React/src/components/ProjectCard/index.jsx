@@ -16,8 +16,8 @@ function ProjectCard ({id,image,name, github,deployed}) {
         <Card.Text>
          Project Description
         </Card.Text>
-        <Button><a  href={github} target="_blank"style ={{color : "#64002f", margin : "5px"}} >GITHUB</a></Button>
-        <Button><a  href={github} target="_blank"style ={{color : "#64002f", margin : "5px"}} >APPLICATION</a></Button>
+        <a  href={github} target="_blank"style ={{ backgroundColor : "#64002f", color : "white", margin : "5px", padding : "7px"}} >GITHUB</a>
+        <a  href={github} target="_blank"style ={{ backgroundColor : "#64002f", color : "white", margin : "5px" ,padding : "7px"}} >APPLICATION</a>
         
       </Card.Body>
     </Card>

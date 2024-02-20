@@ -4,42 +4,49 @@
     "name" : "THE PURSUIT OF HOBBYNESS",
     "github" : "https://github.com/chrisma89/The-Pursuit-of-Hobbyness",
     "deployed" : "https://chrisma89.github.io/The-Pursuit-of-Hobbyness/",
-    "image" : "src/images/Homepage.png"
+    "image" : "src/images/Homepage.png",
+    "description" : "The Pursuit of Hobbyness is an innovative web application designed to inspire users in discovering and embracing new hobbies.This platform serves as a digital incubator for dreams and aspirations through hobby exploration."
 },
 {
   "id" :"2",
   "name" : "WORKDAY-PLANNER",
   "github" : "https://github.com/chrisma89/Workday-Planner",
   "deployed" : "https://chrisma89.github.io/Workday-Planner/",
-  "image" : "src/images/webpage screenshot.png"
+  "image" : "src/images/webpage screenshot.png",
+  "description" : "An application designed for organizing a workday schedule from 9 AM to 5 PM, featuring automatic day and time updates using jQuery and Day.js."
 },
+
 {
   "id" :"3",
   "name" : "MULTI-CITY-5-DAYS-WEATHER-TRACKER",
   "github" : "https://github.com/chrisma89/Multi-City-5-Days-Weather-Tracker",
   "deployed" : "https://chrisma89.github.io/Multi-City-5-Days-Weather-Tracker/",
-  "image" : "src/images/webpage-screenshot.png"
+  "image" : "src/images/webpage-screenshot.png",
+  "description" : "The 5-day Weather Dashboard application offers users current weather conditions and a five-day forecast for searched cities, utilizing Bootstrap for UI, jQuery for data manipulation, and server APIs from OpenWeatherMap for fetching weather data"
 },
 {
   "id" :"4",
   "name" : "CUSTOM PASSWORD GENERATOR",
   "github" : "https://github.com/chrisma89/Custom-Password-Generator",
   "deployed" : "https://chrisma89.github.io/Custom-Password-Generator/",
-  "image" : "src/images/webpagescreenshot.png"
+  "image" : "src/images/webpagescreenshot.png",
+  "description" : "The application demonstrates core JavaScript techniques—functions, loops, arrays, and conditional logic—to build a dynamic password generator that tailors unique passwords to user-defined criteria, showcasing practical web development skills."
 },
 {
   "id" :"5",
   "name" : "A-DENTISTRY-QUIZ-GAME",
   "github" : "https://github.com/chrisma89/A-Dentistry-Quiz-Game",
   "deployed" : "https://chrisma89.github.io/A-Dentistry-Quiz-Game/",
-  "image" : "src/images/Webpage screenshot copy.png"
+  "image" : "src/images/Webpage screenshot copy.png",
+  "description" : "An interactive quiz application that allows users to complete a quiz, see their scores, and compare them with previous highscores. It incorporates timers, local storage for data retrieval, event listeners, and dynamic content manipulation"
 },
 {
   "id" :"6",
   "name" : "BOOTSTRAP-PORTFOLIO",
   "github" : "https://github.com/chrisma89/Bootstrap-Portfolio",
   "deployed" : "https://chrisma89.github.io/Bootstrap-Portfolio/",
-  "image" : "src/images/bootstrapwebpage.png"
+  "image" : "src/images/bootstrapwebpage.png",
+  "description" : "This portfolio page combines navigation, hero, projects, skills, and contact sections, enhanced by CSS and Bootstrap components for a dynamic, responsive layout."
 }
 
 ]
