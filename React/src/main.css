@@ -129,6 +129,9 @@ html, body, #root {
   font-weight: 900;
   font-style: italic;
 }
+a {
+  text-decoration: none;
+}
 
 
 .homecard {

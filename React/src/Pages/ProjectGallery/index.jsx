@@ -17,20 +17,22 @@ const ProjectsGallery = () => {
 
     return (
         <div className='projectbackgrnd'>
-            <h3 className= "projectbackgrnd" style={{fontSize: "25px", color : "white",  padding: "25px" }}>Project Gallery</h3>
+         
             <Container className='container-fluid homecard'>
                 {selectedProject ? (
                     
-                    <>
-                        <ProjectCard project={selectedProject} id={selectedProject.id}
+                    <>   <div className="d-flex flex-column align-items-center">
+                        <ProjectCard className ="col mb-2" project={selectedProject} id={selectedProject.id}
                                     image={selectedProject.image}
                                     name={selectedProject.name}
                                     github={selectedProject.github}
                                     deployed={selectedProject.deployed} />
                         <button onClick={() => setSelectedProject(null)}>Back to Gallery</button>
+                        </div>
                     </>
                 ) : (
-                    <Row>
+                    <Row>   
+                        
                         {projectsData.map((project) => (
                             <Col key={project.id} sm={12} md={6} lg={4}>
                                 <Projects

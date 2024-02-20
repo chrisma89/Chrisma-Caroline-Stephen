@@ -7,16 +7,18 @@ import Card from 'react-bootstrap/Card';
 
 function ProjectCard ({id,image,name, github,deployed}) {
   return (
-    <div className='d-flex justify-content-center'>
-    <Card className ="d-flex justify-content-center col"style={{ width: '40rem', height : '36rem'}}>
-      <Card.Img variant="top" src={image} className='img-container' style={{width : auto}}/>
+    <div className='d-flex flex-column justify-content-center'>
+      {/* <h3 className= "projectbackgrnd" style={{fontSize: "25px", color : "white"}}>{name}</h3> */}
+    <Card className ="d-flex justify-content-center align-items-center"style={{ width: '40rem', height : '30rem'}}>
+      <Card.Img variant="top" src={image} className='img-container' style={{width : "100%"}}/>
       <Card.Body className="content d-flex flex-column justify-content-center align-items-center">
-        <Card.Title style={{fontSize: "20px", padding: "10px", color : "black", textAlign : "center"}}>{name}</Card.Title>
+        <Card.Title style={{fontSize: "35px", padding: "10px", color : "#64002f", textAlign : "center"}}>{name}</Card.Title>
         <Card.Text>
          Project Description
         </Card.Text>
-        <a href={github} target="_blank"style ={{color : "#59B4C3", margin : "5px"}} >GITHUB</a>
-        <a href={deployed} target="_blank" style ={{color : "#59B4C3", margin : "5px"}} >APPLICATION</a>
+        <Button><a  href={github} target="_blank"style ={{color : "#64002f", margin : "5px"}} >GITHUB</a></Button>
+        <Button><a  href={github} target="_blank"style ={{color : "#64002f", margin : "5px"}} >APPLICATION</a></Button>
+        
       </Card.Body>
     </Card>
     </div>
