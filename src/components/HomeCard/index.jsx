@@ -12,7 +12,7 @@ function HomeCard() {
           Chrisma</div>
     
         <Card.Body style={{ backgroundColor: "transparent",  display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}> 
-          <Card.Img className="rounded-circle mx-auto" style={{ width: '40%', height: '40%', padding: "35px" }} variant="top" src="../images/pic.jpeg" /> 
+          <Card.Img className="rounded-circle mx-auto" style={{ width: '40%', height: '40%', padding: "35px" }} variant="top" src="../../images/pic.jpeg" /> 
         </Card.Body>
     </div>
     </div>
