@@ -56,7 +56,7 @@ const Contact = () => {
       padding : '5px'
     }}>
       <Form.Group className="mb-3 form d-flex justify-content-center" controlId="formBasicEmail"> 
-      {/* <h3 style={{fontSize: "25px", padding: "20px", color : "#59B4C3",  padding: "50px"}}>Contact Me</h3> */}
+      
         <div style={{fontSize: "25px", padding: "50px", color : "white"}}>
           Contact Me
         </div>

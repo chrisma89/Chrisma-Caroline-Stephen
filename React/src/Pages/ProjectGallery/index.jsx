@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Projects from "../../components/Projects";
 import projectsData from "../../projects.json";
 import ProjectCard from '../../components/ProjectCard';
-// import DetailProject from '../../components/DetailProject';
+
 
 const ProjectsGallery = () => {
     const [selectedProject, setSelectedProject] = useState(null);
@@ -28,7 +28,7 @@ const ProjectsGallery = () => {
                                     github={selectedProject.github}
                                     description={selectedProject.description}
                                     deployed={selectedProject.deployed} />
-                        {/* <button onClick={() => setSelectedProject(null)}>Back to Gallery</button> */}
+                       
                         </div>
                     </>
                 ) : (

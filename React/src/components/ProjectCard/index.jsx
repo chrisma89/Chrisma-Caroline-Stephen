@@ -1,14 +1,12 @@
-import { auto } from '@popperjs/core';
-import ProjectsGallery from '../../Pages/ProjectGallery';
-import Button from 'react-bootstrap/Button';
+
 import Card from 'react-bootstrap/Card';
-// import "./style.css"
-// import DetailProject from '../DetailProject';
+
+
 
 function ProjectCard ({id,image,name, github,deployed, description}) {
   return (
     <div className=' container-fluid d-flex flex-column justify-content-center'>
-      {/* <h3 className= "projectbackgrnd" style={{fontSize: "25px", color : "white"}}>{name}</h3> */}
+     
     <Card className ="d-flex justify-content-center align-items-center"style={{ width: '40rem', height : '36rem'}}>
       <Card.Img variant="top" src={image} className='img-container' style={{width : "100%"}}/>
       <Card.Body className="content d-flex flex-column justify-content-center align-items-center">
