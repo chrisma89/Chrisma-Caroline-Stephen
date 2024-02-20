@@ -8,8 +8,8 @@ h3 {
   color: white; 
   width: 150px; 
   height: 150px ; 
-  padding-right: 75px;
-  padding-left: 75px;
-  padding-top: 75px;
+  padding: 75px;
+  align-items: center;
+  
   
 }
