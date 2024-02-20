@@ -30,11 +30,11 @@ This project is a showcase of my personal journey and skills. While contribution
 
 
 ### Webpage screenshot
-the webpage screenshot is as below :
+the webpage screenshot is as below :![webpagescreenshot](./public/images/porfolioscreenshot.jpg)
 
 
 ### Links
-The deployed app can be viewed at :
+The deployed app can be viewed at : https://chrisma-caroline-stephen.netlify.app/
 The codebase can be viewed at : https://github.com/chrisma89/Chrisma-Caroline-Stephen
 
 
