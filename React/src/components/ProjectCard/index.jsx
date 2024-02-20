@@ -8,7 +8,7 @@ import Card from 'react-bootstrap/Card';
 function ProjectCard ({id,image,name, github,deployed}) {
   return (
     <div className='d-flex justify-content-center'>
-    <Card className ="d-flex justify-content-center col"style={{ width: '25rem', height : '50rem'}}>
+    <Card className ="d-flex justify-content-center col"style={{ width: '40rem', height : '36rem'}}>
       <Card.Img variant="top" src={image} className='img-container' style={{width : auto}}/>
       <Card.Body className="content d-flex flex-column justify-content-center align-items-center">
         <Card.Title style={{fontSize: "20px", padding: "10px", color : "black", textAlign : "center"}}>{name}</Card.Title>
