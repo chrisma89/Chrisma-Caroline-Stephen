@@ -140,14 +140,14 @@ a {
   justify-content: center; 
   align-items: center; 
   background-color: rgb(238, 238, 238); 
-  background-image: url("src/images/unsplah.jpg");
+  background-image: url("./images/unsplah.jpg");
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
 }
 
 .projectbackgrnd{
-  background-image: url("src/images/unsplah.jpg");
+  background-image: url("./images/unsplah.jpg");
   background-size: cover; /* Cover the entire page */
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Do not repeat the image */
