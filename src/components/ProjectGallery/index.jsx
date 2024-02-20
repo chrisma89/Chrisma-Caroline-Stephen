@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Projects from "../../components/Projects";
+import Projects from "../Projects";
 import projectsData from "../../projects.json";
-import ProjectCard from '../../components/ProjectCard';
+import ProjectCard from '../ProjectCard';
 
 
 const ProjectsGallery = () => {

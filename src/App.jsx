@@ -1,18 +1,18 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavBar from './components/navbar';
-import HomeCard from './Pages/HomeCard';
+import HomeCard from './components/HomeCard';
 import './projects.json';
-import ProjectsGallery from './Pages/ProjectGallery';
-import Contact from "./Pages/Contact"
-import Links from './Pages/LInks';
-import Details from './Pages/Details';
+import ProjectsGallery from './components/ProjectGallery';
+import Contact from "./components/Contact"
+import Links from './components/LInks';
+import Details from './components/Details';
 
 
 function App() {
   return (
     <Router>
-      {/* asename={`/Chrisma-Caroline-Stephen`} */}
+      {/* basename={`/Chrisma-Caroline-Stephen`} */}
       <div>
         <NavBar /> 
         <Routes>
