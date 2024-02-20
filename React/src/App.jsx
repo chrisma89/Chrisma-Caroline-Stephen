@@ -11,15 +11,16 @@ import Details from './Pages/Details';
 
 function App() {
   return (
-    <Router>
+    <Router basename={`/Chrisma-Caroline-Stephen`}>
+      
       <div>
         <NavBar /> 
         <Routes>
-          <Route path="/" element={<HomeCard />} />
-          <Route path="/projects" element={<ProjectsGallery />} />
-          <Route path="/projectdetails" element={<Details  />} />
-          <Route path="/links" element={<Links />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="./" element={<HomeCard />} />
+          <Route path="./projects" element={<ProjectsGallery />} />
+          <Route path="./projectdetails" element={<Details  />} />
+          <Route path="./links" element={<Links />} />
+          <Route path="./contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
