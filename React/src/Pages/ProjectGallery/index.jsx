@@ -26,8 +26,9 @@ const ProjectsGallery = () => {
                                     image={selectedProject.image}
                                     name={selectedProject.name}
                                     github={selectedProject.github}
+                                    description={selectedProject.description}
                                     deployed={selectedProject.deployed} />
-                        <button onClick={() => setSelectedProject(null)}>Back to Gallery</button>
+                        {/* <button onClick={() => setSelectedProject(null)}>Back to Gallery</button> */}
                         </div>
                     </>
                 ) : (

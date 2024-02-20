@@ -7,8 +7,8 @@ import "./style.css"
 
 const Links = () => {
   return(
-    <div style={{background : 'black', paddingBottom: "100%"}}>
-    <h3 style={{fontSize: "25px", padding: "20px", color : "#59B4C3", background : "black", padding: "25px"}}>Get in Touch</h3>
+    <div className='projectbackgrnd' style={{ paddingBottom: "100%"}}>
+    {/* <h3 className='projectbackgrnd' style={{fontSize: "25px", padding: "20px", color : "#59B4C3", background : "black", padding: "25px"}}>Get in Touch</h3> */}
     <a href="https://www.linkedin.com/in/chrisma-caroline-stephen/" target="_blank" className='icon'><FontAwesomeIcon icon={faLinkedin} /></a>
     <a href="https://github.com/chrisma89"  target="_blank" className='icon'><FontAwesomeIcon icon={faGithub} /></a>
     <a href="mailto:chrismacaroline@gmail.com"  target="_blank" className='icon'><FontAwesomeIcon icon={faEnvelope} /></a>
