@@ -23,13 +23,15 @@ const ProjectsGallery = () => {
                 {selectedProject ? (
                     
                     <>   <div className="d-flex flex-column align-items-center">
+                        <div className ="btn" style ={{ backgroundColor : "#64002f", color : "white", margin : "10px", padding : "2px"}} onClick={() => setSelectedProject(null)}>Back to Gallery</div>
                         <ProjectCard className ="col mb-2" project={selectedProject} id={selectedProject.id}
                                     image={selectedProject.image}
                                     name={selectedProject.name}
                                     github={selectedProject.github}
                                     description={selectedProject.description}
                                     deployed={selectedProject.deployed} />
-                                     <button onClick={() => setSelectedProject(null)}>Back to Gallery</button>
+                                  
+                                    
                        
                         </div>
                     </>
