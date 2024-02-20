@@ -41,8 +41,8 @@ const Contact = () => {
 
 
   return(
-    <div style={{background : 'black', paddingBottom : "100%"}}>
-    <h3 style={{fontSize: "25px", padding: "20px", color : "#59B4C3",  padding: "50px", background : 'black'}}>Contact Me</h3>
+    <div  className = "projectbackgrnd" style={{paddingBottom : "100%" , color : "white"}}>
+   
 
 
     {/* Contact form */}
@@ -51,10 +51,15 @@ const Contact = () => {
       justifyContent: "center", 
       flexDirection : "column",
       alignItems: "center", 
-      color : "#59B4C3",
-      fontSize : "25px"
+      color : "white",
+      fontSize : "25px",
+      padding : '5px'
     }}>
-      <Form.Group className="mb-3 form d-flex justify-content-center" controlId="formBasicEmail">
+      <Form.Group className="mb-3 form d-flex justify-content-center" controlId="formBasicEmail"> 
+      {/* <h3 style={{fontSize: "25px", padding: "20px", color : "#59B4C3",  padding: "50px"}}>Contact Me</h3> */}
+        <div style={{fontSize: "25px", padding: "50px", color : "white"}}>
+          Contact Me
+        </div>
         <Form.Label>First Name</Form.Label>
         <Form.Control  value={formData.firstName}
           name="firstName"
@@ -73,7 +78,7 @@ const Contact = () => {
           type="text"
           placeholder="Enter email" />
       </Form.Group>
-      <Button type ="submit" style ={{backgroundColor : "#59B4C3", margin: "35px"}} >
+      <Button type ="submit" style ={{backgroundColor : "#64002f", margin: "35px", border : "#64002f"}} >
         Submit
       </Button>
     </Form>
