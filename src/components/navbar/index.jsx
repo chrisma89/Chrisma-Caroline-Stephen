@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
 import './style.css';
 
 function NavBar() {
@@ -11,10 +12,10 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="">
-          <Nav.Link style={{color:"white", paddingRight :"30px", fontFamily : "roboto-black-italic"}} href="/">HOME</Nav.Link>
-            <Nav.Link style={{color:"white", paddingRight :"30px",fontFamily : "roboto-black-italic"}} href="/projects">PROJECTS</Nav.Link>
-            <Nav.Link style={{color:"white", paddingRight :"30px",fontFamily : "roboto-black-italic"}} href="/links">LINKS</Nav.Link>
-            <Nav.Link style={{color:"white", paddingRight :"30px",fontFamily : "roboto-black-italic"}} href="/contact">CONTACT</Nav.Link>
+          <Link style={{color:"white", paddingRight :"30px", fontFamily : "roboto-black-italic"}} to="/">HOME</Link>
+            <Link style={{color:"white", paddingRight :"30px",fontFamily : "roboto-black-italic"}} to="/projects">PROJECTS</Link>
+            <Link style={{color:"white", paddingRight :"30px",fontFamily : "roboto-black-italic"}} to="/links">LINKS</Link>
+            <Link style={{color:"white", paddingRight :"30px",fontFamily : "roboto-black-italic"}} to="/contact">CONTACT</Link>
           
           </Nav>
           </Navbar.Collapse>
