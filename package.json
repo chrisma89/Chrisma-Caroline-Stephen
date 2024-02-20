@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "predeploy": "npm run build",
+    "dev": "vite", 
+    "build": "vite build",
     "deploy": "gh-pages -d build",
-    "build": "vite build && cp build/index.html build/404.html",
+   
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
