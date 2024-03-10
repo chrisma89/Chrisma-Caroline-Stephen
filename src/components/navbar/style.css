@@ -3,17 +3,19 @@
   justify-content: center;
   flex-grow: 1;
   width: vw;
-  background-color:#64002f; 
+  background-color:#2C2C54; 
   color: #211C6A;
   font-size: 20px;
   padding:5px;
+
 }
 
 .navbarmain {
   width: vw;
   height: 10%;
-  background-color: #64002f; 
-  color: #211C6A;
+  background-color:#2C2C54; 
+  color: #211C6A;  
+  text-decoration: none;
 }
 
 .nav-link {

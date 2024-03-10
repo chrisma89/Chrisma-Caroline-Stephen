@@ -8,15 +8,17 @@ import Contact from "./components/Contact"
 import Links from './components/LInks';
 import Details from './components/Details';
 import Header from './components/header';
-
-
+import About from './components/about';
+import "./main.css"
 function App() {
   return (
     <Router>
       {/* basename={`/Chrisma-Caroline-Stephen`} */}
       <div>
-        <Header />
-        <NavBar /> 
+        <Header /> 
+        <NavBar />
+        <About />
+        
         <Routes>
           <Route path="/" element={<HomeCard />} />
           <Route path="/projects" element={<ProjectsGallery />} />

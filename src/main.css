@@ -145,10 +145,23 @@ a {
   background-position: center; 
   background-repeat: no-repeat; 
 }
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 .projectbackgrnd{
   background-image: url("./images/unsplah.jpg");
   background-size: cover; /* Cover the entire page */
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+.about {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  background-color: #AAABB8;
+  color:  #2C2C54;
 }
