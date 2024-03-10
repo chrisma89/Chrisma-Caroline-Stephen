@@ -7,6 +7,7 @@ import ProjectsGallery from './components/ProjectGallery';
 import Contact from "./components/Contact"
 import Links from './components/LInks';
 import Details from './components/Details';
+import Header from './components/header';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <Router>
       {/* basename={`/Chrisma-Caroline-Stephen`} */}
       <div>
+        <Header />
         <NavBar /> 
         <Routes>
           <Route path="/" element={<HomeCard />} />

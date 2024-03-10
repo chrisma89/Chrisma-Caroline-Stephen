@@ -12,6 +12,7 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="">
+            {/* <Link><img  style={{height :"100%", width : "40%"}}src="/images/logo.png"/></Link> */}
           <Link style={{color:"white", paddingRight :"30px", fontFamily : "roboto-black-italic"}} to="/">HOME</Link>
             <Link style={{color:"white", paddingRight :"30px",fontFamily : "roboto-black-italic"}} to="/projects">PROJECTS</Link>
             <Link style={{color:"white", paddingRight :"30px",fontFamily : "roboto-black-italic"}} to="/links">LINKS</Link>
