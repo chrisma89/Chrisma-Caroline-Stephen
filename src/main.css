@@ -165,3 +165,12 @@ a {
   background-color: #AAABB8;
   color:  #2C2C54;
 }
+
+.skillsbutton{
+  background-color : "#ECECEC";
+   color : "#2C2C54";
+    padding : "2px";
+     border : "5px solid #ECECEC" ;
+     border-radius: "10px";
+     margin : "30px";
+}

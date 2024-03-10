@@ -9,6 +9,7 @@ import Links from './components/LInks';
 import Details from './components/Details';
 import Header from './components/header';
 import About from './components/about';
+import Skills from './components/skills';
 import "./main.css"
 function App() {
   return (
@@ -20,13 +21,14 @@ function App() {
         <About />
         
         <Routes>
-          <Route path="/" element={<HomeCard />} />
+          {/* <Route path="/" element={<HomeCard />} /> */}
           <Route path="/projects" element={<ProjectsGallery />} />
           <Route path="/projectdetails" element={<Details  />} />
           <Route path="/links" element={<Links />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<HomeCard />} />
+          {/* <Route path="/contact" element={<Contact />} /> */}
+          {/* <Route path="*" element={<HomeCard />} /> */}
         </Routes>
+        <Skills/>
       </div>
     </Router>
   );
