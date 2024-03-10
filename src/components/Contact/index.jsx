@@ -41,7 +41,7 @@ const Contact = () => {
 
 
   return(
-    <div  className = "projectbackgrnd" style={{paddingBottom : "100%" , color : "white"}}>
+    <div  className = "projectbackgrnd" style={{ color : "#2C2C54"}}>
    
 
 
