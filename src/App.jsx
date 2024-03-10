@@ -10,6 +10,7 @@ import Details from './components/Details';
 import Header from './components/header';
 import About from './components/about';
 import Skills from './components/skills';
+import Footer from './components/footer';
 import "./main.css"
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           {/* <Route path="*" element={<HomeCard />} /> */}
         </Routes>
         <Skills/>
+        <Footer />
       </div>
     </Router>
   );

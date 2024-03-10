@@ -7,7 +7,7 @@ import './style.css';
 function NavBar() {
   return (
     <Navbar expand="lg" className="container-fluid navbarmain">
-      <Container className='justify-content-center'>
+      <Container className='justify-content-end'>
       <Navbar.Brand href="#home"></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
