@@ -10,15 +10,15 @@ const Skills = () => {
     color: "#ECECEC",
     paddingLeft: "15px",
     paddingRight: "15px",
-    border: "10px solid #ECECEC",
+    border: "10px solid #AAABB8",
     borderRadius: "10px",
     fontSize : "20px",
     marginRight : "40px"
   }
   return ( 
     <>
-    <div  className= "container-fluid d-flex flex-wrap flex-column" style={{backgroundColor :" #ECECEC", padding : "30px"}}>
-    <h4 style={{fontFamily : "roboto-black-italic",fontSize : "30px", padding : "30px", marginTop : "10px", textAlign: "center", color: "#474787"}}>Skills</h4>
+    <div  className= "container-fluid d-flex flex-wrap flex-column" style={{backgroundColor :"#AAABB8", padding : "30px"}}>
+    <h4 style={{fontFamily : "roboto-black-italic",fontSize : "30px", padding : "30px", marginTop : "10px", textAlign: "center", color: "white"}}>Skills</h4>
     
     <div className="container-fluid d-flex flex-wrap flex-row justify-content-center align-align-center">
     <button style={skillsbutton}>HTML5</button>

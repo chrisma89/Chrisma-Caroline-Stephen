@@ -1,25 +1,29 @@
 
+import { Container } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 
 
 
 function ProjectCard ({id,image,name, github,deployed, description}) {
   return (
-    <div className=' container-fluid d-flex flex-column justify-content-center'>
+    <Container className='container-fluid d-flex flex-row justify-content-center'>
      
-    <Card className ="d-flex justify-content-center align-items-center"style={{ width: '40rem', height : '32rem'}}>
+    <Card className ="d-flex justify-content-center align-items-center"style={{ width: '38rem', height : '36rem'}}>
       <Card.Img variant="top" src={image} className='img-container' style={{width : "100%"}}/>
       <Card.Body className="content d-flex flex-column justify-content-center align-items-center">
-        <Card.Title style={{fontSize: "20px", padding: "5px", color : "#64002f", textAlign : "center"}}>{name}</Card.Title>
-        <Card.Text style={{fontSize: "20px", color : "#64002f", textAlign : "center"}}> 
+        <Card.Title style={{fontSize: "30px", padding: "5px", color : "#64002f", textAlign : "center", color : "#2C2C54"}}>{name}</Card.Title>
+        <Card.Text style={{fontSize: "24px", color : "#64002f", textAlign : "center",color : "#2C2C54", fontFamily: "roboto-medium"}}> 
          {description}
         </Card.Text>
-        <a  href={github} target="_blank"style ={{ backgroundColor : "#64002f", color : "white", margin : "2px", padding : "2px"}} >GITHUB</a>
-        <a  href={deployed} target="_blank"style ={{ backgroundColor : "#64002f", color : "white", margin : "2px" ,padding : "2px"}} >APPLICATION</a>
+        <div className='conatiner-fluid d-flex felx-row'>
+          <a  href={github} target="_blank"style ={{ backgroundColor : "#2C2C54", color : "white", margin : "5px", padding : "10px", textDecoration : "none",fontFamily: "roboto-medium"}} >GITHUB</a>
+        <a  href={deployed} target="_blank"style ={{ backgroundColor : "#2C2C54", color : "white", margin : "5px" ,padding : "10px",textDecoration : "none", fontFamily: "roboto-medium"}} >APPLICATION</a>
+        </div>
+        
         
       </Card.Body>
     </Card>
-    </div>
+    </Container>
   );
 }
 

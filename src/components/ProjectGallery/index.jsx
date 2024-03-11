@@ -17,13 +17,13 @@ const ProjectsGallery = () => {
     };
 
     return (
-        <div className='projectbackgrnd'>
+        <div style={{padding: "20px", backgroundColor : "#2C2C54"}} >
          
-            <Container className='container-fluid homecard'>
+            <Container className='container-fluid' style={{padding: "20px", backgroundColor : "#474787"}}>
                 {selectedProject ? (
                     
                     <>   <div className="d-flex flex-column align-items-center">
-                        <div className ="btn" style ={{ backgroundColor : "#64002f", color : "white", margin : "10px", padding : "2px"}} onClick={() => setSelectedProject(null)}>Back to Gallery</div>
+                        
                         <ProjectCard className ="col mb-2" project={selectedProject} id={selectedProject.id}
                                     image={selectedProject.image}
                                     name={selectedProject.name}
@@ -32,7 +32,7 @@ const ProjectsGallery = () => {
                                     deployed={selectedProject.deployed} />
                                   
                                     
-                       
+                                  <div className ="btn" style ={{ backgroundColor : "#ECECEC", color : "#474787", margin : "10px", padding : "10px", fontFamily : "roboto-medium", fontSize : "20px"}} onClick={() => setSelectedProject(null)}>BACK TO GALLERY</div>
                         </div>
                     </>
                 ) : (
@@ -42,6 +42,8 @@ const ProjectsGallery = () => {
                             <Col key={project.id} sm={12} md={6} lg={4}>
                                 <Projects
                                     id={project.id}
+                                    description={project.description}
+                                    // skill={project.skill}
                                     image={project.image}
                                     name={project.name}
                                     github={project.github}

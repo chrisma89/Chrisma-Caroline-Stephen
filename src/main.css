@@ -162,7 +162,7 @@ a {
 .about {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 30px;
-  background-color: #AAABB8;
+  /* background-color: #AAABB8; */
   color:  #2C2C54;
 }
 
