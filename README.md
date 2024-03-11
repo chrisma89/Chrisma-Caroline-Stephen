@@ -30,7 +30,7 @@ This project is a showcase of my personal journey and skills. While contribution
 
 
 ### Webpage screenshot
-the webpage screenshot is as below :![webpagescreenshot](./public/images/porfolioscreenshot.jpg)
+the webpage screenshot is as below :![webpagescreenshot](./public/images/newscreenshot.jpeg)
 
 
 ### Links
@@ -45,7 +45,7 @@ The page can be used to explore the projects that i have completed and the codeb
 
 ### Credits
 
-Visax for the background image  : https://unsplash.com/photos/a-black-and-white-background-with-some-lines-SA5upNDnGY0
+Unsplash for the images in use for this portfolio page.
 Thanks to Mrs. Tephilla Allan Roy for her guidance in getting the react router to work as expected
 Thanks to the Tutor, Ms Laura Cole for her guidance in deploying the project on github pages.
 
