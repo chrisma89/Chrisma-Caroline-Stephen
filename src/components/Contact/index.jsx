@@ -52,12 +52,13 @@ const Contact = () => {
       flexDirection : "column",
       alignItems: "center", 
       color : "white",
-      fontSize : "25px",
+      fontSize : "18px",
+      fontFamily : "roboto-medium",
       padding : '5px'
     }}>
       <Form.Group className="mb-3 form d-flex justify-content-center" controlId="formBasicEmail"> 
       
-        <div style={{fontSize: "25px", padding: "50px", color : "white"}}>
+        <div style={{fontSize: "25px", padding: "50px", color : "white",fontFamily : "roboto-medium" }}>
           Contact Me
         </div>
         <Form.Label>First Name</Form.Label>
@@ -78,7 +79,7 @@ const Contact = () => {
           type="text"
           placeholder="Enter email" />
       </Form.Group>
-      <Button type ="submit" style ={{backgroundColor : "#64002f", margin: "35px", border : "#64002f"}} >
+      <Button type ="submit" style ={{color : "#2C2C54", fontSize : "20px", backgroundColor : "#AAABB8", margin: "35px", border : "#64002f"}} >
         Submit
       </Button>
     </Form>

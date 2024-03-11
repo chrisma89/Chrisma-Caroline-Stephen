@@ -7,7 +7,7 @@ import "./style.css"
 
 const Links = () => {
   return(
-    <div className='projectbackgrnd' style={{ paddingBottom: ""}}>
+    <div className='projectbackgrnd'>
   
     <a href="https://www.linkedin.com/in/chrisma-caroline-stephen/" target="_blank" className='icon'><FontAwesomeIcon icon={faLinkedin} /></a>
     <a href="https://github.com/chrisma89"  target="_blank" className='icon'><FontAwesomeIcon icon={faGithub} /></a>
