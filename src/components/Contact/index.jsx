@@ -47,7 +47,7 @@ const Contact = () => {
     <div  className = "projectbackgrnd" style={{ color : "#2C2C54"}}>
       <div className="d-flex align-items-center justify-content-center">
 
-<a href="./images/CV.pdf" download="Chrisma Stephen CV.pdf" style={{ textDecoration: "none" }}>
+<a href="/public/images/CV.pdf" download="Chrisma Stephen CV.pdf" style={{ textDecoration: "none" }}>
   <Button variant="primary" className="roboto-medium download-button" style={{ marginTop: "30px", fontSize: "20px", backgroundColor : "white", color : "#474787" }}>
     <FontAwesomeIcon icon={faDownload}/> My Resume
   </Button>
