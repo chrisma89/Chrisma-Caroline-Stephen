@@ -30,7 +30,7 @@ This project is a showcase of my personal journey and skills. While contribution
 
 
 ### Webpage screenshot
-the webpage screenshot is as below :![webpagescreenshot](./public/images/newscreenshot.jpeg)
+the webpage screenshot is as below :![webpagescreenshot](./public/images/newscreenshot.jpg)
 
 
 ### Links
