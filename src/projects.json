@@ -79,7 +79,7 @@
   
   "image" : "../../images/desk8.jpg",
   "skill" : "NODE-CSS-COMMAND LINE",
-  "description" : "This portfolio page combines navigation, hero, projects, skills, and contact sections, enhanced by CSS and Bootstrap components for a dynamic, responsive layout."
+  "description" : "The Command Line Team Profile Generator is a user-friendly application that creates professional team profile pages via CLI prompts. It gathers employee details and generates a polished HTML interface to display the team profiles efficiently."
 }
 
 ]

@@ -33,6 +33,9 @@ const Skills = () => {
     <button style={skillsbutton}>GitHub</button>
     <button style={skillsbutton}>Excalidraw</button>
     <button style={skillsbutton}>Paint.net</button> 
+    <button style={skillsbutton}>Bootstrap</button> 
+    <button style={skillsbutton}>TDD</button> 
+    <button style={skillsbutton}>OOP</button> 
     <button style={skillsbutton}>Adobe Illustrator</button>
     <button style={skillsbutton}>Microsoft Office</button>
      <button style={skillsbutton}>Software Of Excellence</button>

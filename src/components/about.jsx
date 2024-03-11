@@ -20,9 +20,14 @@ const About = () => {
     <div className="roboto-regular-italic">Design ||</div>
     <div className="roboto-regular-italic">Create ||</div>
     <div className="roboto-regular-italic">Deliver</div>
-  </div>
-</div>
 
+  </div>
+ 
+  
+</div>
+ {/* <div className="d-flex align-items-center justify-content-center">
+    <a className="roboto-regular-italic" style={{padding: "20px",fontSize : "25px", textDecoration : "none", color : "black"}}href="./images/CV.pdf" download="CV.pdf">Download Resume</a>
+  </div> */}
 
     </>
   );
