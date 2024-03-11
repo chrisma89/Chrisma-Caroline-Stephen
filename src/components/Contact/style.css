@@ -8,3 +8,14 @@
 .submitBtn {
   color : White;
 }
+
+
+
+ 
+
+.download-button:hover {
+  background-color: #474787 !important;
+  color: white !important;
+   transition: background-color 0.3s, color 0.3s; 
+}
+

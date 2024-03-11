@@ -28,6 +28,7 @@ const ProjectsGallery = () => {
                                     image={selectedProject.image}
                                     name={selectedProject.name}
                                     github={selectedProject.github}
+                                    skill={selectedProject.skill}
                                     description={selectedProject.description}
                                     deployed={selectedProject.deployed} />
                                   
