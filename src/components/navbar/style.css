@@ -9,6 +9,9 @@
   padding:5px;
 
 }
+.custom-toggler {
+  color: white; 
+}
 
 .navbarmain {
   width: vw;
