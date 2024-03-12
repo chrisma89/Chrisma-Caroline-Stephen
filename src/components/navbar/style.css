@@ -26,19 +26,3 @@
   font-size: 400px;
 }
 
-
-@media (max-width: 991px) { 
-  .navbar {
-    position: relative;
-    z-index: 1050;
-  }
-
-  .navbar-collapse {
-    position: absolute;
-    top: 56px; /* Adjust based on the navbar's height */
-    left: 0;
-    right: 0;
-    background-color: rgba(0,0,0,0.5); /* Semi-transparent background for the overlay */
-    z-index: 1050;
-  }
-}
