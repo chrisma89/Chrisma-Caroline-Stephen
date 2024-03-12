@@ -19,17 +19,17 @@ function App() {
       <div>
         <Header /> 
         <NavBar />
-        <About />
+        {/* <About /> */}
         
         <Routes>
-          {/* <Route path="/" element={<HomeCard />} /> */}
+          <Route path="/" element={<HomeCard />} />
           <Route path="/projects" element={<ProjectsGallery />} />
           <Route path="/projectdetails" element={<Details  />} />
           <Route path="/links" element={<Links />} />
           <Route path="/contact" element={<Contact />} />
           {/* <Route path="*" element={<HomeCard />} /> */}
         </Routes>
-        <Skills/>
+        {/* <Skills/> */}
         <Footer />
       </div>
     </Router>

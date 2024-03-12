@@ -11,7 +11,7 @@
   align-items: center; 
   /* font-family: "allura-regular"; */
   background-color: rgb(238, 238, 238); 
-  background-image: url("../../images/unsplah.jpg");
+  /* background-image: url("../../images/unsplah.jpg"); */
   background-size: cover; /* Cover the entire page */
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Do not repeat the image */

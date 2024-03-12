@@ -140,7 +140,7 @@ a {
   justify-content: center; 
   align-items: center; 
   background-color: rgb(238, 238, 238); 
-  background-image: url("./images/unsplah.jpg");
+  /* background-image: url("./images/unsplah.jpg"); */
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
