@@ -36,7 +36,7 @@ function HomeCard() {
         >
           <Col>
             
-From dentist to developer, my journey has been extraordinary. Captivated by how tech improves health and well-being, I ventured into coding with R, leading to a “Hello, World!” moment that sparked my love for Front End Web Development. It's more than a career shift; it’s blending my healthcare background with technology to make a real difference.
+          Transitioning from dentistry to development wasn't just a career change for me—it was a leap into a future where I could merge my deep-rooted passion for healthcare with the boundless possibilities of technology. Driven by the conviction that tech has the power to revolutionize health and well-being, I embraced coding, starting with R. That initial "Hello, World!" moment wasn't just an introduction to programming; it was the spark that lit my fervent interest in Front End Web Development. Now, I stand at the crossroads of healthcare and technology, dedicated to making meaningful contributions that bridge these two worlds. This journey is more than a personal transformation; it's a commitment to innovate and create solutions that matter.
 
           </Col>
         </Row>
