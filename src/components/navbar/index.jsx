@@ -21,7 +21,7 @@ function NavBar() {
             {/* <Link><img  style={{height :"100%", width : "40%"}}src="/images/logo.png"/></Link> */}
           <Link style={{color:"white", paddingRight :"30px", fontFamily : "roboto-black-italic",textDecoration: "none"}} to="/">HOME</Link>
             <Link style={{color:"white", paddingRight :"30px",fontFamily : "roboto-black-italic",textDecoration: "none"}} to="/projects">PROJECTS</Link>
-            <Link style={{color:"white", paddingRight :"30px",fontFamily : "roboto-black-italic",textDecoration: "none"}} to="/links">LINKS</Link>
+            {/* <Link style={{color:"white", paddingRight :"30px",fontFamily : "roboto-black-italic",textDecoration: "none"}} to="/links">LINKS</Link> */}
             <Link style={{color:"white", paddingRight :"30px",fontFamily : "roboto-black-italic",textDecoration: "none"}} to="/contact">CONTACT</Link>
           
           </Nav>

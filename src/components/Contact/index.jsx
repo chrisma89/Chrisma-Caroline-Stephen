@@ -4,6 +4,7 @@ import "./style.css"
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import Links from '../LInks';
 
 
 
@@ -14,6 +15,7 @@ const Contact = () => {
     firstName: '',
     lastName: '',
     email: '',
+    message: '',
   });
 
   const handleInputChange = (event) => {
@@ -27,7 +29,7 @@ const Contact = () => {
   const handleFormSubmit = (event) => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     event.preventDefault();
-    if (!formData.firstName || !formData.lastName || !formData.email) {
+    if (!formData.firstName || !formData.lastName || !formData.email || !formData.message) {
       alert("Please fill out all the fields");
     } 
      else {
@@ -38,14 +40,18 @@ const Contact = () => {
       firstName: '',
       lastName: '',
       email: '',
+      message : '',
     })
   }
 
 
 
   return(
-    <div  className = "projectbackgrnd" style={{ color : "#2C2C54"}}>
+    <div  className = "projectbackgrnd" style={{ color : "#2C2C54"}}> 
+    <div className='container-fluid d-flex justify-content-center'> <Links /></div> 
+   
       <div className="d-flex align-items-center justify-content-center">
+      
 
 <a href="/images/CV.pdf" download="Chrisma Stephen CV.pdf" style={{ textDecoration: "none" }}>
   <Button variant="primary" className="roboto-medium download-button" style={{ marginTop: "30px", fontSize: "20px", backgroundColor : "white", color : "#474787" }}>
@@ -71,7 +77,7 @@ const Contact = () => {
       <Form.Group className="mb-3 form d-flex justify-content-center" controlId="formBasicEmail"> 
       
         <div style={{fontSize: "25px", padding: "50px", color : "white",fontFamily : "roboto-medium" }}>
-          Let's Connect!
+          Drop me a message here, and i'll be in touch soon!
         </div>
         <Form.Label>First Name</Form.Label>
         <Form.Control  value={formData.firstName}
@@ -90,6 +96,13 @@ const Contact = () => {
           onChange={handleInputChange}
           type="email"
           placeholder="Enter email" />
+        <Form.Label>Your Message</Form.Label>
+        <Form.Control as="textarea" rows={5} value={formData.message}
+          name="message"
+          onChange={handleInputChange}
+          type="text"
+        
+          placeholder="Your message here" />
       </Form.Group>
       <Button type ="submit" style ={{color : "white", fontSize : "20px", backgroundColor : "#AAABB8", margin: "35px", border : "#64002f"}} >
         Submit

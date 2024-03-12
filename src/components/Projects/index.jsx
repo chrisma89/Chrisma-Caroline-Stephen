@@ -6,8 +6,8 @@ import "./style.css"
 
 function Projects ({id,image,name, github,deployed,skill, selectProject}) {
   return (
-    <div>
-    <Card className ="d-flex justify-content-center col"style={{ width: '20rem', height : '26rem', border: "2px solid #64002f"}}>
+    <div className='container-fluid'>
+    <Card className ="d-flex flex-wrap justify-content-center col"style={{ width: '100%',maxWidth: "20rem", height : '26rem', border: "2px solid #64002f"}}>
       <Card.Img variant="top" src={image} className='img-container' style = {{width : "100%"}}/>
       <Card.Body className="content d-flex flex-column justify-content-center align-items-center">
         <Card.Title style={{fontSize: "25px", padding: "10px", color : "#474787", textAlign : "center", fontFamily : "roboto-medium"}}>{name}</Card.Title>

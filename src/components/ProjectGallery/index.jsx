@@ -17,12 +17,12 @@ const ProjectsGallery = () => {
     };
 
     return (
-        <div style={{padding: "20px", backgroundColor : "#2C2C54"}} >
+        <div className= "container-fluid d-flex"style={{ backgroundColor : "#2C2C54"}} >
          
             <Container className='container-fluid' style={{padding: "20px", backgroundColor : "#474787"}}>
                 {selectedProject ? (
                     
-                    <>   <div className="d-flex flex-column align-items-center">
+                    <>   <div className="container-fluid d-flex flex-column align-items-center">
                         
                         <ProjectCard className ="col mb-2" project={selectedProject} id={selectedProject.id}
                                     image={selectedProject.image}
