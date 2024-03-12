@@ -10,7 +10,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 function NavBar() {
   return (
-    <Navbar expand="lg" className="container-fluid navbarmain">
+    <Navbar style={{position : "relative"}} expand="lg" className="container-fluid navbarmain">
       <Container className='justify-content-end'>
       <Navbar.Brand href="#home"></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-toggler">
