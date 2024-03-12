@@ -1,4 +1,5 @@
 import { Button } from "react-bootstrap";
+import "../main.css"
 
 const Skills = () => {
   const skillsbutton = {
@@ -11,6 +12,8 @@ const Skills = () => {
     border: "1px solid #AAABB8",
     borderRadius: "10px",
     fontSize: "23px",
+    flexDirection : "row",
+    justifyContent : "start"
     // marginRight: "40px",
   };
   return (
@@ -25,6 +28,7 @@ const Skills = () => {
             fontSize: "25px",
             padding: "20px",
             marginTop: "10px",
+            marginBottom : "10px",
             textAlign: "center",
             color: "#2C2C54",
           }}
@@ -32,7 +36,7 @@ const Skills = () => {
           Skills
         </h4>
 
-        <div className="container-fluid d-flex flex-wrap flex-row justify-content-center align-align-center">
+        <div className="container-fluid skillbtn">
           <button style={skillsbutton}>Git</button>
           <button style={skillsbutton}>TDD</button>
           <button style={skillsbutton}>OOP</button>

@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import "../main.css"
 
 const footerIconStyle = {
   color: "#ECECEC",
@@ -15,7 +16,7 @@ const Footer = () => {
     <div style={{backgroundColor : "#2C2C54"}}>
       <Container fluid style={{ backgroundColor: "#2C2C54", height: "20%" }} className="d-flex align-items-center">
         <Row className="w-100">
-          <Col className="d-flex justify-content-start">
+          <Col className="d-flex footeri">
             {/* Icons */}
             <a href="https://www.linkedin.com/in/chrisma-caroline-stephen/" target="_blank" style={footerIconStyle}>
               <FontAwesomeIcon icon={faLinkedin} />

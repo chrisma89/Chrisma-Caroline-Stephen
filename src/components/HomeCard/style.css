@@ -12,11 +12,28 @@
   /* font-family: "allura-regular"; */
   background-color: rgb(238, 238, 238); 
   /* background-image: url("../../images/unsplah.jpg"); */
-  background-size: cover; /* Cover the entire page */
-  background-position: center; /* Center the background image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
 }
 
 .tile {
   color : "white";
+}
+
+
+.homecard-row {
+  font-family: "roboto-regular-italic";
+  font-size: "20px";
+  padding: "10px";
+  padding-top: "30px";
+  padding-bottom: "30px";
+}
+
+/* Remove padding for screens smaller than 768px */
+@media (max-width: 767px) {
+  .homecard-row {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }

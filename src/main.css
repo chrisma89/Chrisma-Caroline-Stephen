@@ -174,3 +174,59 @@ a {
      border-radius: "10px";
      margin : "30px";
 }
+.skillbtn {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .skillbtn {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: start;
+    margin: 0px;
+    padding: 0;
+  }
+}
+
+.footeri {
+  justify-content: start;
+}
+
+@media (max-width : 768px){
+  .footeri {
+    justify-content: center;
+  }
+}
+
+.projectcard {  
+  /* container: fluid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+@media (max-width : 768px){
+  .projectcard {
+    display: inline;
+    justify-content: center;
+  }
+}
+@media (max-width : 768px){
+  .linkicon{
+    container: fluid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+  }
+}
