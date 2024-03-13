@@ -45,6 +45,8 @@ const Skills = () => {
           <button style={skillsbutton}>HTML5</button>
           <button style={skillsbutton}>Canva</button>
           <button style={skillsbutton}>CS R4+</button>
+          <button style={skillsbutton}>UI/UX</button>
+          <button style={skillsbutton}>Web Design</button>
           <button style={skillsbutton}>GitHub</button>
           <button style={skillsbutton}>jQuery</button>
           <button style={skillsbutton}>Node.js</button>
@@ -55,6 +57,7 @@ const Skills = () => {
           <button style={skillsbutton}>Microsoft Office</button>
           <button style={skillsbutton}>Adobe Illustrator</button>
           <button style={skillsbutton}>Software Of Excellence</button>
+          <button style={skillsbutton}>Mobile first Development</button>
         </div>
       </div>
     </>
