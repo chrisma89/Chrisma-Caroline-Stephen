@@ -28,6 +28,7 @@ function App() {
           <Route path="/project/:projectId" element={<ProjectsGallery />} />
           <Route path="/links" element={<Links />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<Homecard />} />
           {/* <Route path="*" element={<HomeCard />} /> */}
         </Routes>
         {/* <Skills/> */}
