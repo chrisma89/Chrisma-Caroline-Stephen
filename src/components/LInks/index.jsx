@@ -7,14 +7,14 @@ import "./style.css"
 
 const Links = () => {
   return(
-    <div className='projectbackgrnd'>
-  
+    // <div className='projectbackgrnd'>
+  <>
     <a href="https://www.linkedin.com/in/chrisma-caroline-stephen/" target="_blank" className='icon'><FontAwesomeIcon icon={faLinkedin} /></a>
     <a href="https://github.com/chrisma89"  target="_blank" className='icon'><FontAwesomeIcon icon={faGithub} /></a>
     <a href="mailto:chrismacaroline@gmail.com"  target="_blank" className='icon'><FontAwesomeIcon icon={faEnvelope} /></a>
     {/* <a href="/images/CV.pdf"  target="_blank" className='icon'><FontAwesomeIcon icon={faFile} /></a> */}
-
-   </div>
+</>
+  //  </div>
   )
 }
 

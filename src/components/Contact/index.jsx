@@ -44,9 +44,9 @@ const Contact = () => {
   // }
 
   return (
-    <div style={{ backgroundColor: "#2C2C54" }}>
-      <Container className="projectbackgrnd" style={{ color: "#2C2C54" }}>
-        <Row className="container-fluid d-flex justify-content-center align-items-center p-5">
+    <div className="container-fluid d-flex" style={{ backgroundColor: "#2C2C54" }}>
+      <Container className="container-fluid d-flex projectbackgrnd" style={{ color: "#2C2C54" }}>
+        <Row className="justify-content-center align-items-center p-5">
           <p
            
             style={{
@@ -56,8 +56,7 @@ const Contact = () => {
               textAlign: "center",
             }}
           >
-            I am looking for opportunities to collaborate and bring my many
-            ideas into fruition.
+            I am looking for opportunities to collaborate and innovate together.
           </p>
           <p
            
@@ -71,7 +70,7 @@ const Contact = () => {
             {" "}
             Please click on the icons below to get in touch.{" "}
           </p>
-          <div className="container-fluid d-flex flex-row justify-content-center align-items-center linkicon">
+          <div className="linkicon">
             {" "}
             <Links />
           </div>

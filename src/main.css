@@ -221,12 +221,20 @@ a {
 }
 @media (max-width : 768px){
   .linkicon{
-    container: fluid;
+  
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0%;
-    margin: 0%;
+    /* padding: 0%; */
+    /* margin: 0%;   */
+    font-size: 0.5rem;
   }
+}
+
+.linkicon {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
 }
