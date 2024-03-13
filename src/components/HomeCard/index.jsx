@@ -34,15 +34,7 @@ function HomeCard() {
           }}
         >
           <Col>
-            My journey from dentistry to development marks a profound shift in
-            my life's direction, driven by a deep-seated desire to blend my
-            healthcare background with the limitless opportunities technology
-            offers. It began with a simple "Hello, World!", which sparked an
-            undeniable passion for Front End Web Development. Now, positioned at
-            the unique intersection of healthcare and technology, I'm dedicated
-            to crafting solutions that resonate on a personal level. This
-            transition is more than just career change—it's a commitment to
-            innovate and make a tangible difference in the world.
+          My transition from dentistry to development represents a significant change, motivated by a keen interest in merging my background in healthcare with the vast possibilities in technology. This journey started with my first programming experience in the language R, igniting a strong interest in Front End Web Development. Now, I find myself at the crossroads of healthcare and technology, focused on developing solutions that are meaningful on a personal level. This is not merely a career change but an opportunity to contribute positively and make a real impact.
           </Col>
         </Row>
         {/* <Row
@@ -71,8 +63,7 @@ function HomeCard() {
           <Col>
             I’m excited about the potential to collaborate and innovate
             together. If you’re drawn to the idea of blending healthcare insight
-            with tech innovation, let’s connect and explore what we can create
-            together. Thanks for stopping by, and here’s to crafting something
+            with tech innovation, let’s connect and explore what we can create. Thanks for stopping by, and here’s to crafting something
             amazing together!
           </Col>
         </Row>

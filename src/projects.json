@@ -30,7 +30,7 @@
 
 {
   "id" :"3",
-  "name" : "MULTI-CITY-5-DAYS-WEATHER-TRACKER",
+  "name" : "5DAYS-WEATHER-TRACKER",
   "github" : "https://github.com/chrisma89/Multi-City-5-Days-Weather-Tracker",
   "deployed" : "https://chrisma89.github.io/Multi-City-5-Days-Weather-Tracker/",
   "image" : "../../images/desk2.jpg",
@@ -39,7 +39,7 @@
 },
 {
   "id" :"4",
-  "name" : "CUSTOM PASSWORD GENERATOR",
+  "name" : "PASSWORD GENERATOR",
   "github" : "https://github.com/chrisma89/Custom-Password-Generator",
   "deployed" : "https://chrisma89.github.io/Custom-Password-Generator/",
   "image" : "../../images/desk6.jpg",
@@ -66,7 +66,7 @@
 },
 {
   "id" :"7",
-  "name" : "CLI-TEAM-PROFILE-GENERATOR",
+  "name" : "TEAM-PROFILE-GENERATOR",
   "github" : "https://github.com/chrisma89/CLI-Team-Profile-Generator",
   
   "image" : "../../images/desk8.jpg",
