@@ -166,14 +166,14 @@ a {
   color:  #2C2C54;
 }
 
-.skillsbutton{
+/* .skillsbutton{
   background-color : "#ECECEC";
    color : "#2C2C54";
     padding : "2px";
      border : "5px solid #ECECEC" ;
      border-radius: "10px";
      margin : "30px";
-}
+} */
 .skillbtn {
   display: flex;
   flex-wrap: wrap;
@@ -188,10 +188,26 @@ a {
   .skillbtn {
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: start;
-    margin: 0px;
-    padding: 0;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 2px;
+  }
+}
+@media (max-width: 768px) {
+  .slbtn {
+    /* background-color: "#2C2C54"; */
+    /* font-family: "roboto-black-italic", */
+    /* color: "#ECECEC", */
+    padding-left: "0px";
+    padding-right: "0px";
+    margin: "2px";
+    /* border: "1px solid #AAABB8", */
+    border-radius: "2px";
+    font-size: "5px";
+    flex-direction : "row";
+    justify-content : "start"
+
   }
 }
 

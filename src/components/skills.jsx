@@ -37,7 +37,7 @@ const Skills = () => {
         </h4>
 
         <div className="container-fluid skillbtn">
-          <button style={skillsbutton}>Git</button>
+          <button className="slbtn"style={skillsbutton}>Git</button>
           <button style={skillsbutton}>TDD</button>
           <button style={skillsbutton}>OOP</button>
           <button style={skillsbutton}>CSS3</button>
