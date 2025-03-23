@@ -19,11 +19,11 @@ function ProjectCard({
             <Card.Img variant="top" src={image} className="img-fluid" style={{maxWidth: "100%", height: "auto"}} />
             <Card.Body>
               <Card.Title className="text-center">{name}</Card.Title>
-              <Card.Text>
+              <Card.Text className="text-center">
                 {description}
                 {/* {skill} */}
               </Card.Text>
-              <div className="d-flex flex-column flex-sm-row justify-content-around">
+              <div className="flex-row flex-sm-row justify-content-around">
                 <a
                   href={github}
                   target="_blank"
@@ -34,7 +34,7 @@ function ProjectCard({
                     padding: "10px",
                     textDecoration: "none",
                     fontFamily: "roboto-medium",
-                    minWidth: "150px",
+                    // minWidth: "150px",
                     minHeight: "50px",
                     display: "flex",
                     justifyContent: "center",
@@ -55,7 +55,7 @@ function ProjectCard({
                     padding: "10px",
                     textDecoration: "none",
                     fontFamily: "roboto-medium",
-                    minWidth: "150px",
+                    // minWidth: "150px",
                     minHeight: "50px",
                     display: "flex",
                     justifyContent: "center",
