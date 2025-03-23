@@ -20,7 +20,7 @@ const Skills = () => {
     <>
       <div
         className="container-fluid d-flex flex-wrap flex-column"
-        style={{ backgroundColor: "f0f0f0", padding: "30px" }}
+        style={{ backgroundColor: "f0f0f0" }}
       >
         <h4
           style={{
@@ -43,21 +43,18 @@ const Skills = () => {
           <button style={skillsbutton}>CSS3</button>
           <button style={skillsbutton}>React</button>
           <button style={skillsbutton}>HTML5</button>
-          <button style={skillsbutton}>Canva</button>
-          <button style={skillsbutton}>CS R4+</button>
+          <button style={skillsbutton}>Figma</button>
           <button style={skillsbutton}>UI/UX</button>
           <button style={skillsbutton}>Web Design</button>
           <button style={skillsbutton}>GitHub</button>
           <button style={skillsbutton}>jQuery</button>
           <button style={skillsbutton}>Node.js</button>
-          <button style={skillsbutton}>Paint.net</button>
           <button style={skillsbutton}>Bootstrap</button>
           <button style={skillsbutton}>Javascript</button>
           <button style={skillsbutton}>Excalidraw</button>
-          <button style={skillsbutton}>Microsoft Office</button>
           <button style={skillsbutton}>Adobe Illustrator</button>
-          <button style={skillsbutton}>Software Of Excellence</button>
-          <button style={skillsbutton}>Mobile first Development</button>
+          <button style={skillsbutton}>Wireframing & Prototyping</button>
+          {/* <button style={skillsbutton}></button> */}
         </div>
       </div>
     </>
