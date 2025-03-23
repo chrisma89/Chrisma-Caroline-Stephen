@@ -23,7 +23,7 @@ function HomeCard() {
             paddingTop: "30px",
           }}
         >
-          <Col>Hello, I'm Chrisma.</Col>
+          <Col>Welcome to Chrisma's portfolio page.</Col>
         </Row>
         <Row
           className="homecard-row"
@@ -33,12 +33,16 @@ function HomeCard() {
             padding: "10px",
           }}
         >
-        
-          Click on 'Projects' to get a glimpse of the story so far.
-          
-          Watch this space for more updates.
-        
+          <Col>Click on 'Projects' to get a glimpse of the story so far.</Col>
         </Row>
+        <Row
+          className="homecard-row"
+          style={{
+            fontFamily: "roboto-regular-italic",
+            fontSize: "20px",
+            padding: "10px",
+          }}
+        ></Row>
         {/* <Row
           style={{
             fontFamily: "roboto-italic",
@@ -61,9 +65,7 @@ function HomeCard() {
             padding: "10px",
             paddingBottom: "30px",
           }}
-        >
-        
-        </Row>
+        ></Row>
 
         <Card.Body
           style={{
@@ -78,9 +80,8 @@ function HomeCard() {
         </Card.Body>
         {/* </div> */}
       </Container>
-      
-        <Skills />
-      
+
+      <Skills />
     </>
   );
 }
