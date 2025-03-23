@@ -33,9 +33,11 @@ function HomeCard() {
             padding: "10px",
           }}
         >
-          <Col>
-          My transition from dentistry to development represents a significant change, motivated by a keen interest in merging my background in healthcare with the vast possibilities in technology. This journey started with my first programming experience in the language R, igniting a strong interest in Front End Web Development. Now, I find myself at the crossroads of healthcare and technology, focused on developing solutions that are meaningful on a personal level. This is not merely a career change but an opportunity to contribute positively and make a real impact.
-          </Col>
+        
+          Click on 'Projects' to get a glimpse of the story so far.
+          
+          Watch this space for more updates.
+        
         </Row>
         {/* <Row
           style={{
@@ -60,12 +62,7 @@ function HomeCard() {
             paddingBottom: "30px",
           }}
         >
-          <Col>
-            I’m excited about the potential to collaborate and innovate
-            together. If you’re drawn to the idea of blending healthcare insight
-            with tech innovation, let’s connect and explore what we can create. Thanks for stopping by, and here’s to crafting something
-            amazing together!
-          </Col>
+        
         </Row>
 
         <Card.Body
