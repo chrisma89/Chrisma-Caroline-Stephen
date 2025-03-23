@@ -30,7 +30,7 @@ function NavBar() {
             <Link
               style={{
                 color: "white",
-                paddingRight: "30px",
+                paddingRight: "50px",
                 fontFamily: "roboto-black-italic",
                 textDecoration: "none",
               }}
@@ -41,7 +41,7 @@ function NavBar() {
             <Link
               style={{
                 color: "white",
-                paddingRight: "30px",
+                paddingRight: "50px",
                 fontFamily: "roboto-black-italic",
                 textDecoration: "none",
               }}
@@ -52,7 +52,7 @@ function NavBar() {
             <Link
               style={{
                 color: "white",
-                paddingRight: "30px",
+                paddingRight: "50px",
                 fontFamily: "roboto-black-italic",
                 textDecoration: "none",
               }}
@@ -64,7 +64,7 @@ function NavBar() {
             <Link
               style={{
                 color: "white",
-                paddingRight: "30px",
+                paddingRight: "50px",
                 fontFamily: "roboto-black-italic",
                 textDecoration: "none",
               }}

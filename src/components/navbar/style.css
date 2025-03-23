@@ -1,6 +1,6 @@
 /* style.css */
 .navbar-nav {
-  justify-content: center;
+  justify-content: right;
   flex-grow: 1;
   width: vw;
   background-color:#2C2C54; 
