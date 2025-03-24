@@ -28,7 +28,7 @@ function App() {
           <Route path="/project/:projectId" element={<ProjectsGallery />} />
           <Route path="/links" element={<Links />} />
           <Route path="/contact" element={<Contact />} />
-          {/* <Route path="/uiuxprojects" element={<UIUXProjects />} /> */}
+          <Route path="/uiuxprojects" element={<uiuxProjects />} />
           <Route path="*" element={<HomeCard />} />
           {/* <Route path="*" element={<HomeCard />} /> */}
         </Routes>
