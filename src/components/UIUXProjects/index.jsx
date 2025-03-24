@@ -1,8 +1,9 @@
 import { Container } from "react-bootstrap";
 
-function uiuxProjects (){
+function UIUXProjects (){
   return(
     <div>Test</div>
   )
 
 }
+export default UIUXProjects

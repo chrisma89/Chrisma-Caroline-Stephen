@@ -11,6 +11,7 @@ import Header from './components/header';
 import About from './components/about';
 import Skills from './components/skills';
 import Footer from './components/footer';
+import UIUXProjects from './components/UIUXProjects';
 import "./main.css"
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
           <Route path="/project/:projectId" element={<ProjectsGallery />} />
           <Route path="/links" element={<Links />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/uiuxprojects" element={<uiuxProjects />} />
+          <Route path="/uiuxProjects" element={<UIUXProjects />} />
           <Route path="*" element={<HomeCard />} />
           {/* <Route path="*" element={<HomeCard />} /> */}
         </Routes>
