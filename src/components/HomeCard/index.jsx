@@ -33,7 +33,7 @@ function HomeCard() {
             padding: "10px",
           }}
         >
-          <Col>Get a glimpse of the story so far. Right here, right now. </Col>
+          <Col>Get a glimpse of the story so far. </Col>
         </Row>
         <Row
           className="homecard-row"

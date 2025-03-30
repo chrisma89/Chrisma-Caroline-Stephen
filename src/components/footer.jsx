@@ -35,7 +35,7 @@ const Footer = () => {
           <Col  className="d-flex justify-content-end">
             {/* Text */}
             <p style={{ color: "#ECECEC", fontSize: "20px", fontFamily: "roboto-black-italic", padding: "20px" }}>
-              © Chrisma Caroline Stephen 2024
+              © Chrisma Caroline Stephen 2025
             </p>
           </Col>
         </Row>

@@ -13,7 +13,7 @@ function UIUXProjects (){
         <Card.Text>
           Placeholder for content
         </Card.Text>
-        <Button style ={{backgroundColor:"#2C2C54"}}>View Details</Button>
+        <Button style ={{backgroundColor:"#2C2C54"}}>Find out more</Button>
       </Card.Body>
     </Card>
     </Container>
