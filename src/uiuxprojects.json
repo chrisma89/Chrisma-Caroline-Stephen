@@ -3,8 +3,9 @@
     "id": "1",
     "Title" : "Favourites",
     "Image": "",
-    "Description" : "",
-    "Button Label" : ""
+    "Description" : "Placeholder text",
+    "Button Label" : "",
+    "src" : "/images/Frame 1208.svg"
   },
   {
     "id": "2",

@@ -1,17 +1,20 @@
 import { Card, Container, Button } from "react-bootstrap";
+import uiuxdata from "../../uiuxprojects.json";
 
 
-function UIUXProjects (){
+function UIUXProjects ({Title, Description}){
+  console.log({Title})
   return(
+    
     // <div>Test</div>
     <div className= "container-fluid"style={{ backgroundColor : "#2C2C54"}} >
     <Container className='container-fluid d-flex justify-content-center' style={{padding: "20px", backgroundColor : "#474787"}}>
       <Card className ="container-fluid d-flex justify-content-center"style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="./images/Frame 1208.svg" />
+      <Card.Img variant="top"/>
       <Card.Body className ="container-fluid justify-content-center">
-        <Card.Title>Favourites</Card.Title>
+        <Card.Title>{Title}</Card.Title>
         <Card.Text>
-          Placeholder for content
+          {Description}
         </Card.Text>
         <Button style ={{backgroundColor:"#2C2C54"}}>Find out more</Button>
       </Card.Body>
