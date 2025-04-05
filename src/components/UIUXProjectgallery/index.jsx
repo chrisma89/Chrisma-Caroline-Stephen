@@ -4,11 +4,13 @@ import UIUXProjects from "../UIUXProjects";
 import uiuxprojectsdata from "../../uiuxprojects.json"
 import UIUXProjectcard from "../UIUXProjectcard";
 
-const [selecteduiuxproject, setselecteduiuxproject] = useState(null)
+const UIUXProjectsGallery = () =>{
+
+const [selecteduiuxproject, setSelecteduiuxproject] = useState(null)
 
 const setuiuxproject = (uiuxprojectid) =>{
  const chosenuiuxproject = uiuxprojectsdata.find (uiuxproject => uiuxproject.id === uiuxprojectid );
- setselecteduiuxproject(chosenuiuxproject)
+ setSelecteduiuxproject(chosenuiuxproject)
 }
 
 return (
@@ -31,14 +33,14 @@ return (
 :
 (
   <Row>
-{uiuxprojectsdata.map((uiuxproject) => (
-                            <Col key={uiuxproject.id} sm={12} md={6} lg={4}>
+{uiuxprojectsdata.map((uiuxprojectid) => (
+                            <Col key={uiuxprojectid.id} sm={12} md={6} lg={4}>
                                 <UIUXProjects
-                                    id={uiuxproject.id}
-                                    description={uiuxproject.description}
+                                    id={uiuxprojectid.id}
+                                    description={uiuxprojectid.description}
                                     // skill={project.skill}
-                                    image={uiuxproject.image}
-                                    setuiuxproject={() => setuiuxproject(uiuxproject.id)}
+                                    image={uiuxprojectid.image}
+                                    setuiuxproject={() => setuiuxproject(uiuxprojectid.id)}
                                 />
                             </Col>
                         ))}
@@ -50,3 +52,6 @@ return (
   </Container>
   </>
 )
+}
+
+export default UIUXProjectsGallery

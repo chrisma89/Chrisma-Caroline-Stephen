@@ -1,5 +1,5 @@
 import { Card, Container, Button } from "react-bootstrap";
-import uiuxdata from "../../uiuxprojects.json";
+
 
 function UIUXProjects({ Title, Description, setuiuxproject }) {
   return (
