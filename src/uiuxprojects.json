@@ -4,15 +4,15 @@
     "Title" : "Favourites",
     "Image": "",
     "Description" : "Placeholder text",
-    "Button Label" : "",
+    "Buttonlabel" : "One",
     "src" : "/images/Frame 1208.svg"
   },
   {
     "id": "2",
     "Title" : "Feature 2",
     "Image": "",
-    "Description" : "",
-    "Button Label" : ""
+    "Description" : " text2",
+    "Buttonlabel" : "Two"
 
   }
 ]
