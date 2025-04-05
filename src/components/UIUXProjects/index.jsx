@@ -1,7 +1,9 @@
 import { Card, Container, Button } from "react-bootstrap";
+import UIUXProjectsGallery from "../UIUXProjectgallery";
+import UIUXProjectcard from "../UIUXProjectcard";
 
 
-function UIUXProjects({ Title, Description, setuiuxproject }) {
+function UIUXProjects({ id, Title, Description, selectuiuxproject }) {
   return (
     <div className="container-fluid" style={{ backgroundColor: "#2C2C54" }}>
       <Container
@@ -19,7 +21,7 @@ function UIUXProjects({ Title, Description, setuiuxproject }) {
             <Button
               style={{ backgroundColor: "#2C2C54" }}
               onClick={() => {
-                setuiuxproject(id);
+                selectuiuxproject(id);
               }}
             >
               Find out more

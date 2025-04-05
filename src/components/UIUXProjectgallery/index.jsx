@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Row, Col } from "react-bootstrap";
 import { Card, Container } from "react-bootstrap";
 import UIUXProjects from "../UIUXProjects";
 import uiuxprojectsdata from "../../uiuxprojects.json"
@@ -8,10 +9,14 @@ const UIUXProjectsGallery = () =>{
 
 const [selecteduiuxproject, setSelecteduiuxproject] = useState(null)
 
-const setuiuxproject = (uiuxprojectid) =>{
- const chosenuiuxproject = uiuxprojectsdata.find (uiuxproject => uiuxproject.id === uiuxprojectid );
- setSelecteduiuxproject(chosenuiuxproject)
-}
+
+const selectuiuxproject = (id) => {
+  const chosenuiuxproject = uiuxprojectsdata.find(
+    (uiuxproject) => uiuxproject.id === id
+  );
+  setSelecteduiuxproject(chosenuiuxproject);
+};
+
 
 return (
   <>
@@ -26,6 +31,8 @@ return (
 <div>{Title}</div>
 <div>{Description}</div>
 <div>{Image}</div>
+{/* // */}
+<div className ="btn" style ={{ backgroundColor : "#ECECEC", color : "#474787", margin : "10px", padding : "10px", fontFamily : "roboto-medium", fontSize : "20px"}} onClick={() => setSelecteduiuxproject(null)}>BACK TO GALLERY</div>
 
 </UIUXProjectcard>
 
@@ -37,10 +44,11 @@ return (
                             <Col key={uiuxprojectid.id} sm={12} md={6} lg={4}>
                                 <UIUXProjects
                                     id={uiuxprojectid.id}
-                                    description={uiuxprojectid.description}
+                                    description={uiuxprojectid.Description}
                                     // skill={project.skill}
-                                    image={uiuxprojectid.image}
-                                    setuiuxproject={() => setuiuxproject(uiuxprojectid.id)}
+                                    image={uiuxprojectid.Image}
+                                    selectuiuxproject={() =>selectuiuxproject(uiuxprojectid.id)}
+                                   
                                 />
                             </Col>
                         ))}

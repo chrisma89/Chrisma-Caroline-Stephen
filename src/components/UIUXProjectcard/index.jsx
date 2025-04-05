@@ -1,5 +1,7 @@
 import React from "react";
-import { Card, CardImg, CardTitle } from "react-bootstrap";
+import { Card } from "react-bootstrap";
+import UIUXProjects from "../UIUXProjects";
+import UIUXProjectsGallery from "../UIUXProjectgallery";
 
 function UIUXProjectcard({
   Title,
@@ -12,7 +14,7 @@ src
   return(
 <>
 <Card>
-  <CardImg>{Image}</CardImg>
+  <Card.Img>{Image}</Card.Img>
   <Card.Title> {Title}</Card.Title>
   <Card.Body>{Description}</Card.Body>
   <Button>{Buttonlabel}</Button>
