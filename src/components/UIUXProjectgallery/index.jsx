@@ -41,14 +41,15 @@ return (
 :
 (
   <Row>
-{uiuxprojectsdata.map((uiuxprojectid) => (
-                            <Col key={uiuxprojectid.id} sm={12} md={6} lg={4}>
+{uiuxprojectsdata.map((id) => (
+                            <Col key={id.id} sm={12} md={6} lg={4}>
                                 <UIUXProjects
-                                    id={uiuxprojectid.id}
-                                    Descriptionescription={uiuxprojectid.Description}
+                                    id={id.id}
+                                    Description={id.Description}
                                     // skill={project.skill}
-                                    Image={uiuxprojectid.Image}
-                                    selectuiuxproject={() =>selectuiuxproject(uiuxprojectid)}
+                                    Image={id.Image}
+                                    Buttonlabel={id.Buttonlabel}
+                                    selectuiuxproject={() =>selectuiuxproject(id)}
                                 />
                             </Col>
                         ))}

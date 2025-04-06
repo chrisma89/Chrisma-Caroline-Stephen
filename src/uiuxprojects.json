@@ -14,5 +14,13 @@
     "Description" : " text2",
     "Buttonlabel" : "Two"
 
+  },
+  {
+    "id": "3",
+    "Title" : "Feature 3",
+    "Image": "",
+    "Description" : " text3",
+    "Buttonlabel" : "Three"
+
   }
 ]

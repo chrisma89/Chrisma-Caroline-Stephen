@@ -4,7 +4,7 @@ import UIUXProjectcard from "../UIUXProjectcard";
 import uiuxprojectsdata from "../../uiuxprojects.json"
 
 
-function UIUXProjects({ id, Title, Description, selectuiuxproject }) {
+function UIUXProjects({ id, Title, Description, selectuiuxproject,Buttonlabel }) {
   return (
     <div className="container-fluid" style={{ backgroundColor: "#2C2C54" }}>
       <Container
@@ -24,7 +24,7 @@ function UIUXProjects({ id, Title, Description, selectuiuxproject }) {
               onClick={() =>
                 selectuiuxproject(id)}
             >
-              Find out more
+              {Buttonlabel}
             </Button>
           </Card.Body>
         </Card>

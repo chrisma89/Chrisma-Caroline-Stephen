@@ -26,11 +26,12 @@ function App() {
         <Routes>
           <Route path="/" element={<HomeCard />} />
           <Route path="/projects" element={<ProjectsGallery />} />
-          <Route path="/projectdetails" element={<Details  />} />
+          {/* <Route path="/projectdetails" element={<Details  />} /> */}
           <Route path="/project/:projectId" element={<ProjectsGallery />} />
           <Route path="/links" element={<Links />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/uiuxProjects" element={<UIUXProjectsGallery />} />
+          <Route path="/uiuxprojects" element={<UIUXProjectsGallery />} />
+          <Route path="/uiuxproject/:uiuxprojectid" element={<ProjectsGallery />} />
           <Route path="*" element={<HomeCard />} />
           {/* <Route path="*" element={<HomeCard />} /> */}
         </Routes>
