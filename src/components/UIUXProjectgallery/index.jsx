@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Button } from "react-bootstrap";
 import { Card, Container } from "react-bootstrap";
 import UIUXProjects from "../UIUXProjects";
 import uiuxprojectsdata from "../../uiuxprojects.json"
@@ -10,9 +10,9 @@ const UIUXProjectsGallery = () =>{
 const [selecteduiuxproject, setSelecteduiuxproject] = useState(null)
 
 
-const selectuiuxproject = (uiuxprojectid) => {
+const selectuiuxproject = (id) => {
   const chosenuiuxproject = uiuxprojectsdata.find(
-    (uiuxproject) => uiuxproject.id === uiuxprojectid
+    uiuxproject => uiuxproject.id === id
   );
   setSelecteduiuxproject(chosenuiuxproject);
 };
@@ -23,19 +23,17 @@ return (
   <Container className='container-fluid' style={{padding: "20px", backgroundColor : "#474787"}}>
 {selecteduiuxproject ?
 (<>
-<UIUXProjectcard
+<UIUXProjectcard uiuxproject ={selecteduiuxproject}
   id = {selecteduiuxproject.id}
   Title={selecteduiuxproject.Title}
   Description ={selecteduiuxproject.Description}
-    Image ={selecteduiuxproject.image}>
-      <div>{id}</div>
-<div>{Title}</div>
-<div>{Description}</div>
-<div>{Image}</div>
-{/* // */}
+    Image ={selecteduiuxproject.image}
+/>
+
+
 <div className ="btn" style ={{ backgroundColor : "#ECECEC", color : "#474787", margin : "10px", padding : "10px", fontFamily : "roboto-medium", fontSize : "20px"}} onClick={() => setSelecteduiuxproject(null)}>BACK TO GALLERY</div>
 
-</UIUXProjectcard>
+
 
 </>)
 :
@@ -49,7 +47,7 @@ return (
                                     // skill={project.skill}
                                     Image={id.Image}
                                     Buttonlabel={id.Buttonlabel}
-                                    selectuiuxproject={() =>selectuiuxproject(id)}
+                                    selectuiuxproject={() =>selectuiuxproject(id.id)}
                                 />
                             </Col>
                         ))}
