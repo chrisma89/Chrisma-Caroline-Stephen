@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button} from "react-bootstrap";
+import { Card, Button, Container} from "react-bootstrap";
 import UIUXProjects from "../UIUXProjects";
 import UIUXProjectsGallery from "../UIUXProjectgallery";
 
@@ -13,6 +13,7 @@ src
 }){
   return(
 <>
+<Container className='container-fluid' style={{backgroundColor : "#2C2C54"}}>
 <Card>
   <Card>{id}</Card>
   <Card.Img src={src}></Card.Img>
@@ -20,6 +21,7 @@ src
   <Card.Body>{Description}</Card.Body>
   <Button>{Buttonlabel}</Button>
 </Card>
+</Container>
 </>
   )
 }
