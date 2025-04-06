@@ -13,6 +13,7 @@ import Skills from './components/skills';
 import Footer from './components/footer';
 import UIUXProjects from './components/UIUXProjects';
 import "./main.css"
+import UIUXProjectsGallery from './components/UIUXProjectgallery';
 function App() {
   return (
     <Router>
@@ -29,7 +30,7 @@ function App() {
           <Route path="/project/:projectId" element={<ProjectsGallery />} />
           <Route path="/links" element={<Links />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/uiuxProjects" element={<UIUXProjects />} />
+          <Route path="/uiuxProjects" element={<UIUXProjectsGallery />} />
           <Route path="*" element={<HomeCard />} />
           {/* <Route path="*" element={<HomeCard />} /> */}
         </Routes>

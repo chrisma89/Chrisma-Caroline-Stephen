@@ -1,6 +1,7 @@
 import { Card, Container, Button } from "react-bootstrap";
 import UIUXProjectsGallery from "../UIUXProjectgallery";
 import UIUXProjectcard from "../UIUXProjectcard";
+import uiuxprojectsdata from "../../uiuxprojects.json"
 
 
 function UIUXProjects({ id, Title, Description, selectuiuxproject }) {
@@ -20,9 +21,8 @@ function UIUXProjects({ id, Title, Description, selectuiuxproject }) {
             <Card.Text>{Description}</Card.Text>
             <Button
               style={{ backgroundColor: "#2C2C54" }}
-              onClick={() => {
-                selectuiuxproject(id);
-              }}
+              onClick={() =>
+                selectuiuxproject(id)}
             >
               Find out more
             </Button>

@@ -10,9 +10,9 @@ const UIUXProjectsGallery = () =>{
 const [selecteduiuxproject, setSelecteduiuxproject] = useState(null)
 
 
-const selectuiuxproject = (id) => {
+const selectuiuxproject = (uiuxprojectid) => {
   const chosenuiuxproject = uiuxprojectsdata.find(
-    (uiuxproject) => uiuxproject.id === id
+    (uiuxproject) => uiuxproject.id === uiuxprojectid
   );
   setSelecteduiuxproject(chosenuiuxproject);
 };
@@ -27,7 +27,8 @@ return (
   id = {selecteduiuxproject.id}
   Title={selecteduiuxproject.Title}
   Description ={selecteduiuxproject.Description}
-    Image ={selecteduiuxproject.image}><div>{id}</div>
+    Image ={selecteduiuxproject.image}>
+      <div>{id}</div>
 <div>{Title}</div>
 <div>{Description}</div>
 <div>{Image}</div>
@@ -44,11 +45,10 @@ return (
                             <Col key={uiuxprojectid.id} sm={12} md={6} lg={4}>
                                 <UIUXProjects
                                     id={uiuxprojectid.id}
-                                    description={uiuxprojectid.Description}
+                                    Descriptionescription={uiuxprojectid.Description}
                                     // skill={project.skill}
-                                    image={uiuxprojectid.Image}
-                                    selectuiuxproject={() =>selectuiuxproject(uiuxprojectid.id)}
-                                   
+                                    Image={uiuxprojectid.Image}
+                                    selectuiuxproject={() =>selectuiuxproject(uiuxprojectid)}
                                 />
                             </Col>
                         ))}
