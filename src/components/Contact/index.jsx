@@ -56,7 +56,7 @@ const Contact = () => {
               textAlign: "center",
             }}
           >
-            I am looking for opportunities to collaborate and innovate together.
+            I'm firm believer in the power of collaboration.
           </p>
           <p
            
@@ -68,7 +68,7 @@ const Contact = () => {
             }}
           >
             {" "}
-            Please click on the icons below to get in touch.{" "}
+            Let's connect!{" "}
           </p>
           <div className="linkicon">
             {" "}

@@ -21,7 +21,7 @@ const selectuiuxproject = (id) => {
 return (
   <>
   <div className= "container-fluid d-flex"style={{ backgroundColor : "#2C2C54"}} >
-  <Container style={{padding: "20px", backgroundColor : "#474787"}}>
+  <Container style={{padding: "20px"}}>
 {selecteduiuxproject ?
 (<>
  <div className="container-fluid d-flex flex-column align-items-center">
