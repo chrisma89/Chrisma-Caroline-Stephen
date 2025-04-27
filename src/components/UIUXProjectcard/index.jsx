@@ -13,8 +13,8 @@ src
 }){
   return(
 <>
-<Container className='container-fluid' style={{backgroundColor : "#2C2C54"}}>
-<Card>
+<Container >
+<Card className='container-fluid d-flex align-items-center'>
   <Card>{id}</Card>
   <Card.Img src={src}></Card.Img>
   <Card.Title> {Title}</Card.Title>

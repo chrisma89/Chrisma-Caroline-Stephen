@@ -20,10 +20,12 @@ const selectuiuxproject = (id) => {
 
 return (
   <>
-  <Container className='container-fluid' style={{padding: "20px", backgroundColor : "#474787"}}>
+  <div className= "container-fluid d-flex"style={{ backgroundColor : "#2C2C54"}} >
+  <Container style={{padding: "20px", backgroundColor : "#474787"}}>
 {selecteduiuxproject ?
 (<>
-<UIUXProjectcard uiuxproject ={selecteduiuxproject}
+ <div className="container-fluid d-flex flex-column align-items-center">
+<UIUXProjectcard className ="col mb-2" uiuxproject ={selecteduiuxproject}
   id = {selecteduiuxproject.id}
   Title={selecteduiuxproject.Title}
   Description ={selecteduiuxproject.Description}
@@ -32,6 +34,7 @@ return (
 
 
 <div className ="btn" style ={{ backgroundColor : "#ECECEC", color : "#474787", margin : "10px", padding : "10px", fontFamily : "roboto-medium", fontSize : "20px"}} onClick={() => setSelecteduiuxproject(null)}>BACK TO GALLERY</div>
+</div>
 
 
 
@@ -57,6 +60,7 @@ return (
 
 }
   </Container>
+  </div>
   </>
 )
 }
