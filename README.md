@@ -29,9 +29,6 @@ This project is a showcase of my personal journey and skills. While contribution
 -https://www.daggala.com/passing-props-through-link-in-react-router/
 
 
-### Webpage screenshot
-the webpage screenshot is as below :![webpagescreenshot](./public/images/newscreenshot.jpg)
-
 
 ### Links
 The deployed app can be viewed at : https://chrisma-caroline-stephen.netlify.app/
