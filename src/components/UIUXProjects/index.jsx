@@ -9,7 +9,7 @@ function UIUXProjects({ id, Title, Description, selectuiuxproject,Buttonlabel })
    
       <Container
         className="container-fluid d-flex justify-content-center"
-        style={{ padding: "0px", minHeight : "80vh"}}
+        style={{ padding: "0px", minHeight : "40vh"}}
       >
         <Card
           className=""

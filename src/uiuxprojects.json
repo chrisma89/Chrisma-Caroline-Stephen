@@ -1,15 +1,15 @@
 [
   {
     "id": "1",
-    "Title" : "Favourites",
+    "Title" : "Connection Stability Indicators",
     "Image": "",
-    "Description" : "Placeholder text",
-    "Buttonlabel" : "One",
+    "Description" : "Designed **Connection Stability Indicators** to provide clear, real-time feedback on call quality using intuitive color signals." ,
+    "Buttonlabel" : "Show",
     "src" : "/images/Frame 1208.svg"
   },
   {
     "id": "2",
-    "Title" : "Feature 2",
+    "Title" : "Call screen UI redesign",
     "Image": "",
     "Description" : " text2",
     "Buttonlabel" : "Two"
@@ -17,7 +17,7 @@
   },
   {
     "id": "3",
-    "Title" : "Feature 3",
+    "Title" : "Favourites in Contacts",
     "Image": "",
     "Description" : " text3",
     "Buttonlabel" : "Three"
@@ -25,7 +25,7 @@
   },
   {
     "id": "4",
-    "Title" : "Feature 4",
+    "Title" : "Enhancing the peer to peer call screen",
     "Image": "",
     "Description" : " text4",
     "Buttonlabel" : "Four"

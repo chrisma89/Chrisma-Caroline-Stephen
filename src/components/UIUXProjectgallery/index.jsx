@@ -46,6 +46,7 @@ return (
                             <Col key={id.id} sm={12} md={6} lg={4}>
                                 <UIUXProjects
                                     id={id.id}
+                                    Title={id.Title}
                                     Description={id.Description}
                                     // skill={project.skill}
                                     Image={id.Image}
