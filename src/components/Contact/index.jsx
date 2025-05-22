@@ -44,7 +44,7 @@ const Contact = () => {
   // }
 
   return (
-    <div className="container-fluid d-flex" style={{ backgroundColor: "#2C2C54" }}>
+    <div className="container-fluid d-flex" style={{ backgroundColor: "#2C2C54", minHeight : "80vh"}}>
       <Container className="container-fluid d-flex projectbackgrnd" style={{ color: "#2C2C54" }}>
         <Row className="justify-content-center align-items-center p-5">
           <p

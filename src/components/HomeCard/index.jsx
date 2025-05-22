@@ -12,6 +12,7 @@ function HomeCard() {
           fontFamily: "roboto-regular-italic",
           paddingLeft: "0.2rem",
           paddingRight: "0.2rem",
+          minHeight : "80vh"
         }}
       >
         <Row

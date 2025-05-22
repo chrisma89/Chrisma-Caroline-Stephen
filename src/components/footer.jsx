@@ -7,13 +7,13 @@ import "../main.css"
 
 const footerIconStyle = {
   color: "#ECECEC",
-  fontSize: "20px", // Adjust the icon size here instead of width and height to ensure scalability
-  padding: "20px", // Adjust padding to control the space around the icons
+  fontSize: "20px", 
+  padding: "20px", 
 };
 
 const Footer = () => {
   return (
-    <div style={{backgroundColor : "#2C2C54"}}>
+    <div style={{backgroundColor : "#2C2C54", position : "relative"}}>
       <Container fluid style={{ backgroundColor: "#2C2C54", height: "20%" }} className="d-flex align-items-center">
         <Row className="w-100">
           <Col className="d-flex footeri">
