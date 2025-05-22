@@ -2,7 +2,7 @@
 
 const Header = () => {
   return ( 
-    <div className="container-fluid d-flex" style={{height : "120px"}}>
+    <div className="container-fluid d-flex align-content-center justify-content-center" style={{height : "200px"}}>
       <div className="d-none d-md-block w-100">
         <img src="/images/CHRISMA.png" style={{height : "90%", width : "100%"}} />
         </div>
