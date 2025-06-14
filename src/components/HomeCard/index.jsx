@@ -11,8 +11,8 @@ function HomeCard() {
         className="container-fluid justify-content-center align-items-center"
         style={{
           fontFamily: "roboto-regular-italic",
-          paddingLeft: "0.2rem",
-          paddingRight: "0.2rem",
+          paddingLeft: "2rem",
+          paddingRight: "2rem",
           paddingTop: "5rem",
           minHeight : "65vh"
         }}
@@ -25,7 +25,7 @@ function HomeCard() {
             // padding: "10px",
             paddingTop: "30px",
           }}
-        >Vanakkam, Swāgatham, Welcome.
+        >Hello, I'm Chrisma.
           {/* <Col>Vanakkam! Swāgatham! Welcome!
 </Col> */}
         </Row>

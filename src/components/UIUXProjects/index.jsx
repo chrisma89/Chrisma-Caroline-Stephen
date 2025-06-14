@@ -11,15 +11,15 @@ function UIUXProjects({ id, Title, Description, selectuiuxproject,Buttonlabel, I
         className="container-fluid d-flex justify-content-center"
         style={{ padding: "0px", minHeight : "40vh"}}
       >
-        <Card
-          className="d-flex flex-wrap justify-content-center col"
+        <Card    
+          className="d-flex flex-wrap justify-content-center"
           style={{ width: '100%',maxWidth: "20rem", height : '26rem', border: "2px solid #64002f" }}
         >
-          <Card.Img variant="top" src={Image} className='img-container' style = {{width : "100%"}}/>
+          <Card.Img variant="top" src={Image} style = {{width : "100%"}}/>
           <Card.Body className="justify-content-center content d-flex flex-column align-items-center">
             <Card.Title style={{fontSize: "25px", padding: "10px", color : "#474787", textAlign : "center", fontFamily : "roboto-medium"}}>{Title}</Card.Title>
             <Card.Text style={{fontSize: "15px", padding: "10px", color : "#474787", textAlign : "center", fontFamily : "roboto-medium"}}>{Description}</Card.Text>
-            <Button id={id}
+            <Button 
              style ={{backgroundColor : " #2C2C54", color : "white", margin : "5px", alignItems : "center", fontFamily : "roboto-medium"}}
               onClick={() =>
                 selectuiuxproject(id)}
