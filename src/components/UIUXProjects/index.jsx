@@ -4,7 +4,7 @@ import UIUXProjectcard from "../UIUXProjectcard";
 import uiuxprojectsdata from "../../uiuxprojects.json"
 
 
-function UIUXProjects({ id, Title, Description, selectuiuxproject,Buttonlabel }) {
+function UIUXProjects({ id, Title, Description, selectuiuxproject,Buttonlabel, Image }) {
   return (
    
       <Container
@@ -12,15 +12,15 @@ function UIUXProjects({ id, Title, Description, selectuiuxproject,Buttonlabel })
         style={{ padding: "0px", minHeight : "40vh"}}
       >
         <Card
-          className=""
-          style={{ width: "18rem" }}
+          className="d-flex flex-wrap justify-content-center col"
+          style={{ width: '100%',maxWidth: "20rem", height : '26rem', border: "2px solid #64002f" }}
         >
-          <Card.Img variant="top" />
-          <Card.Body className="justify-content-center">
-            <Card.Title>{Title}</Card.Title>
-            <Card.Text>{Description}</Card.Text>
-            <Button
-              style={{ backgroundColor: "#2C2C54" }}
+          <Card.Img variant="top" src={Image} className='img-container' style = {{width : "100%"}}/>
+          <Card.Body className="justify-content-center content d-flex flex-column align-items-center">
+            <Card.Title style={{fontSize: "25px", padding: "10px", color : "#474787", textAlign : "center", fontFamily : "roboto-medium"}}>{Title}</Card.Title>
+            <Card.Text style={{fontSize: "15px", padding: "10px", color : "#474787", textAlign : "center", fontFamily : "roboto-medium"}}>{Description}</Card.Text>
+            <Button id={id}
+             style ={{backgroundColor : " #2C2C54", color : "white", margin : "5px", alignItems : "center", fontFamily : "roboto-medium"}}
               onClick={() =>
                 selectuiuxproject(id)}
             >
@@ -33,3 +33,5 @@ function UIUXProjects({ id, Title, Description, selectuiuxproject,Buttonlabel })
   );
 }
 export default UIUXProjects;
+
+
