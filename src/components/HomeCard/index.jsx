@@ -3,17 +3,18 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 import "./style.css";
 import Skills from "../skills";
 
+
 function HomeCard() {
   return (
     <>
       <Container
-        className="container-fluid flex-column"
+        className="container-fluid justify-content-center align-items-center"
         style={{
           fontFamily: "roboto-regular-italic",
           paddingLeft: "0.2rem",
           paddingRight: "0.2rem",
           paddingTop: "5rem",
-          minHeight : "80vh"
+          minHeight : "65vh"
         }}
       >
         <Row
@@ -45,7 +46,7 @@ function HomeCard() {
             fontSize: "2.5rem",
             paddingTop: "4rem",
           }}
-        >I’m a front-end web developer who enjoys designing clean, user-friendly interfaces and bringing them to life with code. I use Figma for UI/UX design and JavaScript and React for development.
+        >I’m a front-end web developer and UI/UX designer who creates clean, user-friendly interfaces and brings them to life with code. I use Figma for design, and JavaScript and React for development.
         </Row>
         <Row
           className="justify-content-start homecard-row"
@@ -54,7 +55,7 @@ function HomeCard() {
             fontSize: "2.5rem",
             paddingTop: "4rem",
           }}
-        >I’d love to hear your opinion on these projects, so feel free to connect with me on LinkedIn and let’s collaborate.
+        >Connect with me on LinkedIn and let’s collaborate.
         </Row>
         <Row
           className="homecard-row"
@@ -102,7 +103,7 @@ function HomeCard() {
         {/* </div> */}
       </Container>
 
-      <Skills />
+      {/* <Skills /> */}
     </>
   );
 }
