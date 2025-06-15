@@ -34,6 +34,7 @@ return (
     Problem={selecteduiuxproject.Problem}
      Goal={selecteduiuxproject.Goal}
       Solution={selecteduiuxproject.Solution}
+      Outcome={selecteduiuxproject.Outcome}
 />
 
 
