@@ -11,8 +11,8 @@ function HomeCard() {
         className="container-fluid justify-content-center align-items-center"
         style={{
           fontFamily: "roboto-regular-italic",
-          paddingLeft: "0.2rem",
-          paddingRight: "0.2rem",
+          paddingLeft: "2rem",
+          paddingRight: "2rem",
           paddingTop: "5rem",
           minHeight : "65vh"
         }}
@@ -25,7 +25,7 @@ function HomeCard() {
             // padding: "10px",
             paddingTop: "30px",
           }}
-        >Vanakkam, Swāgatham, Welcome.
+        >Hello, I'm Chrisma.
           {/* <Col>Vanakkam! Swāgatham! Welcome!
 </Col> */}
         </Row>
@@ -46,7 +46,8 @@ function HomeCard() {
             fontSize: "2.5rem",
             paddingTop: "4rem",
           }}
-        >I’m a front-end web developer and UI/UX designer who creates clean, user-friendly interfaces and brings them to life with code. I use Figma for design, and JavaScript and React for development.
+        >I’m a front-end web developer and UI/UX designer. I create user-centered design in Figma and make them functional with JavaScript and React.
+        
         </Row>
         <Row
           className="justify-content-start homecard-row"
