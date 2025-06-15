@@ -46,7 +46,8 @@ function HomeCard() {
             fontSize: "2.5rem",
             paddingTop: "4rem",
           }}
-        >I’m a front-end web developer and UI/UX designer who creates clean, user-friendly interfaces and brings them to life with code. I use Figma for design, and JavaScript and React for development.
+        >I’m a front-end web developer and UI/UX designer. I create user-centered design in Figma and make them functional with JavaScript and React.
+        
         </Row>
         <Row
           className="justify-content-start homecard-row"
