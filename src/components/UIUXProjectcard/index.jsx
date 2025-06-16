@@ -15,7 +15,14 @@ Image,
 Buttonlabel,
 src
 
+
 }){
+
+   const { outcomeHeading = "", outcomeContent = [] } = Outcome || {};
+   const { problemHeading = "", problemContent = [] } = Problem || {};
+
+ 
+  
   return(
 <>
 <Container className="projectcard">
@@ -27,11 +34,23 @@ src
   {/* <Card.Img src={src}></Card.Img> */}
   <Card.Title> {Title}</Card.Title>
   <Card.Body>{Description}</Card.Body>
-    <Card.Body>{Project}</Card.Body>
-     <Card.Body>{Problem}</Card.Body>
+    {/* <Card.Body>{Project}</Card.Body> */}
+     <Card.Body>{problemHeading}</Card.Body>
+      <ul>
+  {problemContent.map((item, index) => (
+    <li key={index}>{item}</li>
+  ))}
+</ul>
           <Card.Body>{Goal}</Card.Body>
           <Card.Body>{Solution}</Card.Body>
-          <Card.Body>{Outcome}</Card.Body>
+          <Card.Body>{outcomeHeading}</Card.Body>
+          <ul>
+  {outcomeContent.map((item, index) => (
+    <li key={index}>{item}</li>
+  ))}
+</ul>
+
+
   {/* <Button>{Buttonlabel}</Button> */}
 </Card>
 {/* </Col> */}

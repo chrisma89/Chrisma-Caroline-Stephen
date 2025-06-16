@@ -4,13 +4,24 @@
   "Title": "Connection Stability Indicators for Peer-to-Peer Calls",
   "Image": "",
   "Description": "Helping users understand call quality issues — so they know when something's wrong, and who it’s affecting in real time.",
-  "Project": "Role: UI/UX Designer & Front-End Developer\nTools: Figma, React, JavaScript\nTeam: 1 Designer, 1 PM, 2 Engineers\nTimeline: 3 weeks\nGoal: Help users detect and understand call connection issues in real time.",
-  "Problem" : "The Problem\nIn P2P calls, users often experience poor audio/video without knowing why. The lack of visible connection status leads to:\nConfusion (Is it just me?)\nBlame between participants\nMissed early signs of disconnection",
+  "Project": {
+    "Role" : "Role: UI/UX Designer & Front-End Developer",
+    "Tools": "Figma, React, JavaScript",
+    "Team": "1 Designer, 1 PM, 2 Engineers",
+    "Goal": "Help users detect and understand call connection issues in real time."
+  },
+  "Problem" : {
+    "problemHeading" : "The Problem",
+    "problemContent" : ["In P2P calls, users often experience poor audio/video without knowing why","The lack of visible connection status leads to confusion (Is it just me?)", "Blame between participants\nMissed early signs of disconnection"]
+  },
   "Goal" : "The Goal:Design a lightweight and intuitive way to display each participant’s connection stability, so users can:Quickly identify who’s having issues\nUnderstand connection quality at a glance\nMaintain a clean, focused call UI",
   "Solution" : "Solution Overview 🟢🟠🔴 *Connection Stability Icons\nGreen: Good (hidden to avoid clutter)\nAmber*: Weak (some packet loss or latency)\nRed*: Poor (major disruptions or high delay)\nDisplayed only for participants with issues\nIcon shown beforeconnection status text\nHidden when call is still Connecting…or Searching",
-  "Outcome" : "Outcome\nImproved user awareness of real-time connection issues\nReduced confusion during dropped or choppy calls\nNo increase in visual complexity — minimal and meaningful",
-  "Buttonlabel": "Show",
-  "src": "/images/Frame 1208.svg"
+  "Outcome" : {
+    "outcomeHeading" : "Outcome",
+    "outcomeContent" : ["Improved user awareness of real-time connection issues", "Reduced confusion during dropped or choppy calls", "No increase in visual complexity — minimal and meaningful"]
+  },
+  "src": "/images/Frame 1208.svg",
+   "Buttonlabel" : "One"
 },
   {
     "id": "2",
