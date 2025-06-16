@@ -30,7 +30,7 @@ return (
   Title={selecteduiuxproject.Title}
   Description ={selecteduiuxproject.Description}
     Image ={selecteduiuxproject.image}
-    Project={selecteduiuxproject.Project}
+    // Project={selecteduiuxproject.Project}
     Problem={selecteduiuxproject.Problem}
      Goal={selecteduiuxproject.Goal}
       Solution={selecteduiuxproject.Solution}
