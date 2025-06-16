@@ -15,7 +15,11 @@ Image,
 Buttonlabel,
 src
 
+
 }){
+
+    const {heading, content} = Outcome;
+  
   return(
 <>
 <Container className="projectcard">
@@ -31,7 +35,8 @@ src
      <Card.Body>{Problem}</Card.Body>
           <Card.Body>{Goal}</Card.Body>
           <Card.Body>{Solution}</Card.Body>
-          <Card.Body>{Outcome}</Card.Body>
+          <Card.Body>{content}</Card.Body>
+          <Card.Text>{heading}</Card.Text>
   {/* <Button>{Buttonlabel}</Button> */}
 </Card>
 {/* </Col> */}
